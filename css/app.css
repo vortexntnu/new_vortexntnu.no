@@ -1,0 +1,122 @@
+body{
+	background-color: #f3f3f3; 
+}
+
+.header {
+	background-color: #2A3642;
+	/*position: fixed;*/
+	z-index: 100;
+	width: 100%;
+	left: 0px;
+    top: 0px;
+    /*z-index: -1; /* Use for small menu */
+	}
+
+.header-permanent {
+	background-color: #2A3642;
+	position: fixed;
+	z-index: -1;
+	width: 100%;
+	left: 0px;
+    top: 0px;
+    /*z-index: -1; /* Use for small menu */
+	}
+
+.header > .row > .columns > h1 {
+	color: white;}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;;
+  color: #2A3642; /* #72CF3F;} */}
+
+p {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-align: justify;
+  hyphens: auto;
+  color: black;
+  }
+
+a {
+  color: #2A3642; /* #72CF3F;} */;
+  text-decoration: none;
+  line-height: inherit; }
+  a:hover, a:focus {
+    color: #2a3642; /* #72CF3F;} */
+	text-decoration: underline; }
+
+
+button, .button {
+  font-family: "Helvetica Neue Thin", Helvetica, Roboto, Arial, sans-serif;
+  background-color: #2A3642;
+  border-color: black;
+  color: white;
+  transition: background-color 300ms ease-out; }
+  button:hover, button:focus, .button:hover, .button:focus {
+    background-color: #2A3642; 
+    }
+  .button > *:hover a, .breadcrumbs > *:focus a {
+    text-decoration: underline; 
+    color: white; /* #72CF3F;} */}
+  
+.circular {
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;}
+
+centering {
+	margin-left: auto;
+    margin-right: auto }
+}
+
+.top-image {
+	position: relative; 
+	width: 100%; /* for IE 6 */}
+
+
+header .image-text {
+    background: #fff url('img/cad/cad.jpg') no-repeat center 0 fixed;
+    color: #fff;
+}
+
+.footer > .row > .columns > .row > .columns > p {
+	color: white;	
+}
+
+.footer {
+	background-color: black;}
+	a.footer-text{
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		color: white;}
+	p.footer-text{
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		color: white;}
+		
+ul li > p, ul li > a {
+	color: white;}
+	ul li > a:hover, ul li > a:focus {
+	    color: white; /* #72CF3F;} */
+		text-decoration: underline; }
+	
+hr {
+  border: solid #2A3642;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 1.25rem 0 1.1875rem;
+  height: 0; } 
+  
+.header > a {
+	color: white;} 
+
+.heihei > a {
+	color: white;}
+
+a.top-menu {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: white;}
+	
+.sponsors {
+	background-color: #2A3642;}
+	
+
+
