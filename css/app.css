@@ -4,7 +4,7 @@ body{
 
 .header {
 	background-color: #2A3642;
-	/*position: fixed;*/
+	position: relative;
 	z-index: 100;
 	width: 100%;
 	left: 0px;
@@ -15,11 +15,10 @@ body{
 .header-permanent {
 	background-color: #2A3642;
 	position: fixed;
-	z-index: -1;
+	z-index: 1;
 	width: 100%;
 	left: 0px;
     top: 0px;
-    /*z-index: -1; /* Use for small menu */
 	}
 
 .header > .row > .columns > h1 {
