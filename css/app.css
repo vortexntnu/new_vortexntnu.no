@@ -11,9 +11,15 @@ body{
     top: 0px;
     /*z-index: -1; /* Use for small menu */
 	}
+	
+header .jumbotron {
+/* 	background: #f3f3f3 url("/Users/GeirKulia/Documents/Skole/2015/Eksperter i Team/Web/www/img/cad/cad.jpg") no-repeat center 0 fixed; */
+	background: #f3f3f3 url("http://vortexrov.no/img/cad/cad.jpg") no-repeat center 0 fixed;
+    color: #fff;
+}
 
 .header-permanent {
-	background-color: #2A3642;
+	background-color: #2a3643;
 	position: fixed;
 	z-index: 1;
 	width: 100%;
@@ -117,5 +123,20 @@ a.top-menu {
 .sponsors {
 	background-color: #2A3642;}
 	
+	
+#hide_if_mobile	{
+	display: none;
+	}
+	
+@media screen and (max-width: 600px) {
+  #hide_if_mobile {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
 
 
