@@ -1,2 +1,2 @@
 # webpage
-vortexrov.no
+This webpage is displayed at ![vortexrov.no].
