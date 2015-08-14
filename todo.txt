@@ -1,5 +1,5 @@
 # To do
-- [] Fix logo (+ weird issue when scaling the page)
-- [] Add facebook like/share box
-- [] Add all the members in the team section
-- [] Optimize the look and feel of the site (maybe we can use a different font, and a different colour scheme)
+-  Fix logo ( Make it look prettier, and fix weird issue with logo when scaling the page)
+-  Add facebook like/share box
+-  Add all the members in the team section
+-  Optimize the look and feel of the site (maybe use a different font, and a different colour scheme)
