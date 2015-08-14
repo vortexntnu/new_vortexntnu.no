@@ -1,7 +1,5 @@
 # To do
-- [] Fix logo
-- [] Get png
-- [] edit footer
-- [] redo the top menu to suit mobile phones better
-- [] Get more specs and photos
-- [] Fix main image to fit more screen types. Now it is cut if large screen.
+- [] Fix logo (+ weird issue when scaling the page)
+- [] Add facebook like/share box
+- [] Add all the members in the team section
+- [] Optimize the look and feel of the site (maybe we can use a different font, and a different colour scheme)
