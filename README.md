@@ -5,6 +5,6 @@ This webpage is displayed at http://vortexrov.no.
 
 - [ ] fix formating on top image to fit brode screens.
 - [ ] New rendering of the ROV
-- [ ] New teammembers
+- [x] New teammembers
 - [ ] New images
 - [ ] New template?
