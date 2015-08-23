@@ -1,10 +1,10 @@
-# webpage
-This webpage is displayed at http://vortexrov.no.
+# Webpage
+To see this page go to:
 
-## Todo
+http://htmlpreview.github.io/?https://github.com/vortexntnu/vortexntnu.github.io/blob/new-framework-bootstrap/index.html
 
-- [ ] fix formating on top image to fit brode screens.
-- [ ] New rendering of the ROV
-- [ ] New teammembers
-- [ ] New images
-- [ ] New template?
+## To do
+-  Fix logo ( Make it look prettier, and fix weird issue with logo when scaling the page)
+-  Add facebook like/share box
+-  Add all the members in the team section
+-  Optimize the look and feel of the site (maybe use a different font, and a different colour scheme)
