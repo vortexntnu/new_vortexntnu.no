@@ -6,5 +6,5 @@ This webpage is displayed at http://htmlpreview.github.io/?https://github.com/vo
 - [ ] fix formating on top image to fit brode screens.
 - [ ] New rendering of the ROV
 - [x] New teammembers
-- [ ] New images
+- [x] New images
 - [ ] New template?
