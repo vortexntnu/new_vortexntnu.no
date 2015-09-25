@@ -1,5 +1,5 @@
 body{
-	background-color: #f3f3f3; 
+	background-color: #f3f3f3;
 }
 
 .header {
@@ -11,7 +11,7 @@ body{
     top: 0px;
     /*z-index: -1; /* Use for small menu */
 	}
-	
+
 header .jumbotron {
 /* 	background: #f3f3f3 url("/Users/GeirKulia/Documents/Skole/2015/Eksperter i Team/Web/www/img/cad/cad.jpg") no-repeat center 0 fixed; */
 	background: #f3f3f3 url("http://vortexrov.no/img/cad/cad.jpg") no-repeat center 0 fixed;
@@ -58,12 +58,12 @@ button, .button {
   color: white;
   transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #2A3642; 
+    background-color: #2A3642;
     }
   .button > *:hover a, .breadcrumbs > *:focus a {
-    text-decoration: underline; 
+    text-decoration: underline;
     color: white; /* #72CF3F;} */}
-  
+
 .circular {
   border-radius: 150px;
   -webkit-border-radius: 150px;
@@ -75,7 +75,7 @@ centering {
 }
 
 .top-image {
-	position: relative; 
+	position: relative;
 	width: 100%; /* for IE 6 */}
 
 
@@ -85,7 +85,7 @@ header .image-text {
 }
 
 .footer > .row > .columns > .row > .columns > p {
-	color: white;	
+	color: white;
 }
 
 .footer {
@@ -96,22 +96,22 @@ header .image-text {
 	p.footer-text{
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 		color: white;}
-		
+
 ul li > p, ul li > a {
 	color: white;}
 	ul li > a:hover, ul li > a:focus {
 	    color: white; /* #72CF3F;} */
 		text-decoration: underline; }
-	
+
 hr {
   border: solid #2A3642;
   border-width: 1px 0 0;
   clear: both;
   margin: 1.25rem 0 1.1875rem;
-  height: 0; } 
-  
+  height: 0; }
+
 .header > a {
-	color: white;} 
+	color: white;}
 
 .heihei > a {
 	color: white;}
@@ -119,15 +119,16 @@ hr {
 a.top-menu {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	color: white;}
-	
+
 .sponsors {
 	background-color: #2A3642;}
-	
-	
+
+
 #hide_if_mobile	{
 	display: none;
 	}
-	
+
+
 @media screen and (max-width: 600px) {
   #hide_if_mobile {
     visibility: hidden;
@@ -138,4 +139,3 @@ a.top-menu {
     display: none;
   }
 }
-
