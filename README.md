@@ -1,5 +1,5 @@
 # webpage
-This webpage is displayed at http://htmlpreview.github.io/?https://github.com/vortexntnu/vortexntnu.github.io/blob/Add-team-photos/index.html
+This webpage is displayed at http://vortexrov.no.
 
 ## Todo
 
