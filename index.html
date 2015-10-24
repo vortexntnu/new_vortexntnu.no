@@ -1,446 +1,260 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
 
-    <!--
+<head>
 
- _    __           __               _   _________   ____  __
-| |  / /___  _____/ /____  _  __   / | / /_  __/ | / / / / /
-| | / / __ \/ ___/ __/ _ \| |/_/  /  |/ / / / /  |/ / / / /
-| |/ / /_/ / /  / /_/  __/>  <   / /|  / / / / /|  / /_/ /
-|___/\____/_/   \__/\___/_/|_|  /_/ |_/ /_/ /_/ |_/\____/
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
+    <title>Modern Business - Start Bootstrap Template</title>
 
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-                         /\
-                        /  \
-                        \   \__
-                         \   \o\
-                          \   \o\=
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
 
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
+</head>
 
+<body>
 
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+<!--                 <a class="navbar-brand" href="index.html">Duh</a> -->
+                <a class="navbar-brand" href="index.html"><img src="img/logo/logo-white.png" style="height:20px;"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="about.html">Organisasjon</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Samarbeidspartnere</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Bli med</a>
+                    </li>
+                    <!--
+<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-item.html">Single Portfolio Item</a>
+                            </li>
+                        </ul>
+                    </li>
+-->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-
-
-
-
-                                 o o
-                                 o ooo
-                                   o oo
-                                      o o      |   #)
-                                       oo     _|_|_#_
-                                         o   |Vortex |
-    __                    ___________________|NTNU   |_________________
-   |   -_______-----------                                              \
-  >|    _____                                                            )
-   |__ -     ---------_________________________________________________ /
-
-	-->
-
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vortex NTNU</title>
-    <link rel="shortcut icon" href="img/icons/vortex-small.ico">
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/app.css" />
-    <script src="js/vendor/modernizr.js"></script>
-  </head>
-
-  <!-- Fargekode: https://color.adobe.com/nb/Starter-Dark-1-color-theme-4047557/edit/?copy=true&base=2&rule=Custom&selected=2&name=Kopi%20av%20Starter%20Dark%201&mode=rgb&rgbvalues=0.164706,0.211765,0.258824,0.596078,0.764706,0.901961,0.439216,0.631373,0.756863,0.172549,0.290196,0.392157,0.0156863,0.0156863,0.0156863&swatchOrder=0,1,2,3,4 -->
-
-
-  <body>
-
-	<!--------------------------For Facebook----------------->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-  <!-----------------------------Body------------------------>
-
-
-  	<div class="header-permanent">
-			<div class="row">
-			      <ul class="right button-group top-menu">
-			          <li class="small button"><p><a href="#intro" class="top-menu">Top</a></p> </li>
-			          <li class="small button"><p><a href="#about" class="top-menu">About</a> </p> </li>
-			          <li class="small button"><p><a href="#team" class="top-menu">The Team</a> </p> </li>
-			      </ul>
-			</div>
-	</div>
-
-      <a name=intro></a>
-
-	<div class="header">
-			<div class="row">
-			    <div class="large-3 columns">
-			    	<h1><img src="img/icons/vortex.png"/></h1>
-			    </div>
-			    <div class="large-5 columns">
-
-			      <ul class="right button-group top-menu">
-			          <li class="small button"><h4><a href="#intro" class="top-menu">Top</a></h4> </li>
-			          <li class="small button"><h4><a href="#about" class="top-menu">About</a> </h4> </li>
-			          <li class="small button"><h4><a href="#team" class="top-menu">The Team</a> </h4> </li>
-			      </ul>
-			    </div>
-
-			</div>
-	  </div>
-
-
-
-
+ 
+        
+    <!-- Header Image -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('img/cad/Frame_subassembly4.jpg');"></div>
+                <div class="carousel-caption">
+					<h2>Caption 1</h2>
+                </div>
+            </div>
+        </div>
 
 
 
 <!--
-  <header>
-	  <div class="top-image">
-	    <img src="img/cad/cad.jpg"/>
-	  </div>
-  </header>
+<div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Modern Business Features</h2>
+            </div>
+            <div class="col-md-6">
+                <p>The Modern Business template by Start Bootstrap includes:</p>
+                <ul>
+                    <li><strong>Bootstrap v3.2.0</strong>
+                    </li>
+                    <li>jQuery v1.11.0</li>
+                    <li>Font Awesome v4.1.0</li>
+                    <li>Working PHP contact form with validation</li>
+                    <li>Unstyled page elements for easy customization</li>
+                    <li>17 HTML pages</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="http://placehold.it/700x450" alt="">
+            </div>
+        </div>
 -->
 
-<header>
-	<div class="jumbotron" style="margin: 0;">
-		<div class="row">
-			<div class=" columns large-5">
-				<br> <br> <br> <br> <br> <br> <br>
-	 We develop, design and build a subsea ROV. To do this we utilize the knowledge acquired during the studies and put them into practice under supervision from our partners at NTNU and the industry.
-	 			<br> <br>
-	 			<!--<a href="#join" class="button radius">Learn More</a>	-->
-	 			<br> <br> <br> <br> <br> <br>
 
 
 
-			</div>
-		</div>
-	</div>
+    </header>
 
-</header>
+    <!-- Page Content -->
+    <div class="container">
 
-
-         <a name=about></a>
-
-  <!-------------------------------------------About---------------------------->
-
-
-
-    <div class="row">
-		<div class="columns">
-	<br>
-	<div class="large-6 columns">
-    <h2>Who are we?</h2>
-
-    <P> Vortex NTNU is a student organisation that designs and builds underwater robots - also knowns as remotely operated vehicles or ROVs -  each year to participate in the MATE ROV international student competition. We are headquartered at the Norwegian University of Science and Technology in Trondheim, Norway.
-
-The team is composed of  6 students from a wide variety of faculties that are passionate about science and technology. For example the team has mechanical, electrical, material science and cybernetics engineers, consisting of master students.  </p>
-</div>
-<div class="large-6 columns">
-	<h2>Looking for new members!</h2>
-
-	<P> Do you want to join one of the coolest studentproject at NTNU? We are looking for Finance and Marketing managers. Send an application to <a href="mailto:join.us@vortexrov.no">join.us@vortexrov.no</a>.</div>
-
-<div class="fb-like" data-href="https://www.facebook.com/VortexNTNU" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
-
-     	</div>
-     </div>
-
-
-
-     <!-----------------------------Main-------------------------->
-
-      <div class="row">
-      <hr/>
-
-
-        <div class="large-4 columns">
-          <!<img src="img/icons/attack.png"/>
-          <h4>How did it start?</h4>
-          <p>This project started at NTNU spring 2015 through subject matter experts in teams. Pioneers, which consisted of Daniel Tran, Morten Leeland, Geir Kulia, Kjetil Hope and Helge Fylkesnes wanted more practical experience.
-          </p>
-        </div>
-
-        <div class="large-4 columns">
-          <!<img src="img/icons/submarine.png"/>
-          <h4>What makes us special?</h4>
-          <p>In cooperation with Norsk Elektro Optikk we aim to deploy their LaserShark equipment to depict the seabed by projecting a laser line and process the image frame to find the exact position of the laser line. This is used to make a 3D model of the seabed.
-	    </p>
-
-        </div>
-
-        <div class="large-4 columns">
-          <img src="img/photos/tavle.jpg"/>
-
-        </div>
-
-
-
-   </div>
-
-
-
-
-
-
-   </div>
-
-
-
-
-       <!-----------------------------The Team-------------------------->
-
-<div class="row">
-
-
-
-<a name=team></a>
-<h2>The Team</h2>
-
-<hr/>    <!-- Ser fucka ut, men intil videre -->
-<h2>Administration</h2>
-
-
-    <div class="large-4 columns">
-          <img src="img/team/daniel.png" class="circular"/>
-          <h4>Daniel Tran</h4>
-          <p>
-	          Team leader and CoFounder <br>
-			  Machine and Material Science <br>
-          </p>
-        </div>
-
-        <div class="large-4 columns">
-          <img src="img/team/ole.png" class="circular"/>
-          <h4>Ole Johan Lønnum</h4>
-          <p>
-            Controller <br>
-            Marine Technology <br>
-          </p>
-        </div>
-
-
-        <div class="large-4 columns">
-                  <img src="img/morten.png" class="circular"/>
-                  <h4>Morten Liland</h4>
-                  <p>
-                    Technical Manager and CoFounder <br>
-                Nanoelectronics and photonics <br>
-                  </p>
-        </div>
-
-        <div class="large-4 columns">
-          <img src="img/geir.png" class="circular"/>
-          <h4>Geir Kulia</h4>
-          <p>
-            Recruitment Manager and CoFounder <br>
-        Design of Digital Systems <br>
-          </p>
-        </div>
-
-        <div class="large-4 columns">
-          <img src="img/team/johannes.png" class="circular"/>
-          <h4>Johannes Lorentzen</h4>
-          <p>
-            HSEQ and HR manager <br>
-            Health, Safety, Environment and Quality <br>
-          </p>
-        </div>
-
-        <div class="large-4 columns">
-          <img src="img/team/marie.png" class="circular"/>
-          <h4>Marie Henriksen</h4>
-          <p>
-            Finance Manager <br>
-            Engineering Cybernetics <br>
-          </p>
-        </div>
-
-<hr/>
-<h2>Human Machine Interface</h2>
-
-        <div class="large-4 columns">
-          <img src="img/team/håkon.png" class="circular"/>
-          <h4>Håkon Gimse</h4>
-          <p>
-            Manager <br>
-            Computer Science <br>
-          </p>
-        </div>
-
-<hr/>
-<h2>Stabilization and Control </h2>
-
-        <div class="large-4 columns">
-          <img src="img/team/peter.png" class="circular"/>
-          <h4>Peter Aaser</h4>
-          <p>
-            Manager <br>
-            Computer Science <br>
-          </p>
-        </div>
-
-        <div class="large-4 columns">
-          <img src="img/team/morten.png" class="circular"/>
-          <h4>Morten Fyhn Amundsen</h4>
-          <p>
-            Stabilization and control Engineer<br>
-            Engineering Cybernetics <br>
-          </p>
-        </div>
-
-<hr/>
-<h2>Construction </h2>
-
-        <div class="large-4 columns">
-          <img src="img/team/eirik.png" class="circular"/>
-          <h4>Eirik Lothe Foseid</h4>
-          <p>
-            Manager <br>
-            Engineering Cybernetics<br>
-          </p>
-        </div>
-
-        <div class="large-4 columns">
-          <img src="img/team/kristian.png" class="circular"/>
-          <h4>Kristian Bortne</h4>
-          <p>
-            Engineer<br>
-            IT and industrial mechanic <br>
-          </p>
-        </div>
-
-<hr/>
-<h2>Electronics</h2>
-
-        <div class="large-4 columns">
-          <img src="img/team/coral.png" class="circular"/>
-          <h4>Karl Ylvisaker</h4>
-          <p>
-            Manager <br>
-            Engineering Cybernetics <br>
-          </p>
-        </div>
-
-        <div class="large-4 columns">
-          <img src="img/team/lars.png" class="circular"/>
-          <h4>Lars Haugseng Andersen </h4>
-          <p>
-            Engineer <br>
-            Electronic Engineering <br>
-          </p>
-        </div>
-
-        <div class="large-4 columns">
-          <img src="img/team/simon.png" class="circular"/>
-          <h4>Simon L'orange</h4>
-          <p>
-            Engineer <br>
-            Electronic Engineering <br>
-          </p>
-        </div>
-
-<hr/>
-<h2>Research and Development </h2>
-
-      <div class="large-4 columns">
-        <img src="img/team/ove.png" class="circular"/>
-        <h4>Ove Nese</h4>
-        <p>
-          Corrosion <br>
-          Mechanical Engineer
-        </p>
-      </div>
-
-      <div class="large-4 columns">
-        <img src="img/team/mads.png" class="circular"/>
-        <h4>Mads Kjærvik Jøsok</h4>
-        <p>
-          Frame <br>
-          Mechanical Engineer
-        </p>
-      </div>
-
-
-      </div>
-
-
-    <!----------------------------Sponsors---------------------->
-    <!--                        ?
- ~~~~~~~~~~~~~~~~~~~~~~~~~~~|^"~~~~~~~~~~~~~~~~~~~~~~~~~o~~~~~~~~~~~
-        o                   |                  o      __o
-         o                  |                 o     |X__>
-       ___o                 |                __o
-     (X___>--             __|__            |X__>     o
-                         |     \                   __o
-                         |      \                |X__>
-  _______________________|_______\________________
- <                                                \____________   _
-  \                                                            \ (_)
-   \    O       O       O                                       >=)
-    \__________________________________________________________/ (_)
-
-                            ___
-                           / o \
-                      __   \   /   _
-                        \__/ | \__/ \
-                       \___//|\\___/\
-                        ___/ | \___
-                             |     \
-                            /
-																	-->
-
-	<div class="sponsors">
-	    <div class="row">
-		    <a name=sponsors></a>
-		    <br>
-	        <h6 style="text-align: center; color: white;"> Made possible by</h6>
-	        <div class="large-2 columns">
-	          <a href="http://www.neo.no/" target="_blank"><img src="img/sponsors/neo.png"/></a>
-			</div>
-			<div class="large-2 columns">
-	          <a href="http://astrup.no/" target="_blank"><img src="img/sponsors/astrup.png"/></a>
-			</div>
-	    </div>
-		<br>
-	</div>
-
-
-
-    <!-----------------------------Footer---------------------->
-
-  <div class="footer">
-      <footer class="row">
-        <div class="large-12 columns">
-        <br>
-          <div class="row">
-            <div class="large-6 columns">
-              <p>©2015 Vortex NTNU</p>
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    Welcome to Modern Business
+                </h1>
             </div>
-
-
-            <div class="large-6 columns">
-              <ul class="inline-list right">
-	            <li><div class="fb-like" data-href="https://www.facebook.com/VortexNTNU" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div></li>
-              	<li><p> mail: <a href="mailto:post@vortexrov.no" style="color: white">post@vortexrov.no</a></p></li>
-                               <!--<li><a href="#">Link 2</a></li>-->
-              </ul>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-gift"></i> Free &amp; Open Source</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-compass"></i> Easy to Use</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </footer>
-  </div>
+        <!-- /.row -->
+
+        
+
+        <!-- Features Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Modern Business Features</h2>
+            </div>
+            <div class="col-md-6">
+                <p>The Modern Business template by Start Bootstrap includes:</p>
+                <ul>
+                    <li><strong>Bootstrap v3.2.0</strong>
+                    </li>
+                    <li>jQuery v1.11.0</li>
+                    <li>Font Awesome v4.1.0</li>
+                    <li>Working PHP contact form with validation</li>
+                    <li>Unstyled page elements for easy customization</li>
+                    <li>17 HTML pages</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="http://placehold.it/700x450" alt="">
+            </div>
+        </div>
+        <!-- /.row -->
+
+  
+		<!-- Portfolio Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Gjort mulig av</h2>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="img/sponsors/neo-sort-stor.png" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="img/sponsors/kybb-farger-hvit-bakgrunn.png" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="img/sponsors/astrup-sort-stor.png" alt="">
+                </a>
+            </div>
+            
+            
+        </div>
+        <!-- /.row -->
 
 
-  </body>
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Vortex NTNU 2014</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+</body>
+
 </html>
