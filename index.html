@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Modern Business - Start Bootstrap Template</title>
+    <title>Vortex NTNU</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -30,6 +30,17 @@
 </head>
 
 <body>
+	
+	
+	<!--------------------------For Facebook----------------->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -52,13 +63,15 @@
                         <a href="index.html">Hjem</a>
                     </li>
                     <li>
-                        <a href="team.html">Organisasjon</a>
+                        <a href="team.html">Om oss</a>
                     </li>
+<!--
                     <li>
                         <a href="sponsors.html">Samarbeidspartnere</a>
                     </li>
+-->
                     <li>
-                        <a href="contact.html">Bli med</a>
+                        <a href="contact.html">Kontakt oss</a>
                     </li>                    
                     <!--
 <li class="dropdown">
@@ -92,16 +105,16 @@
  
         
     <!-- Header Image -->
+<!--
     <header id="myCarousel" class="carousel slide">
-        <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
                  <div class="fill" style="background-image:url('img/cad/Frame_subassembly4.jpg');"></div> 
                 <div class="carousel-caption text-left">
-<!-- 					<h2>Caption 1</h2> -->
                 </div>
             </div>
         </div>
+-->
 
 
     </header>
@@ -109,18 +122,43 @@
     <!-- Page Content -->
     <div class="container">
 	    
-	    
-	    <!-- Features Section -->
+	    <!-- Om oss -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">Vi er kuule!</h2>
+                <h2 class="page-header">Hva gjør vi?</h2>
             </div>
             <div class="col-md-6">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                <p>
+	                
+	                Vortex NTNU er en uavhengig studentorganisasjon ved Norges teknisk-naturvitenskapelige universitet. Det tverrfaglige teamet består av 17 medlemmer som arbeider frivillig parallelt med en fulltids sivilingeniørutdanning. Medlemmene kommer fra seks forskjellige sivilingeniørretninger fordelt over alle årstrinn.
+<br><br>
+	                Hvert år designes og konstrueres en ROV fra bunnen av til konkurransen <a href="http://www.marinetech.org/rov-competition/">MATE ROV</a>. Det er et krevende prosjekt å gjennomføre fra design til ferdig produkt på 8 måneder, men gjøres mulig gjennom det store engasjementet, kunnskapen og viljen som teamet innehar.  
+Dette prosjektet er en unik arena for personlig utvikling, hvor studenter har mulighet til å skape noe ekstraordinært. 
+                
             </div>
             <div class="col-md-6">
                 <img class="img-responsive" src="img/photos/team/team.jpg" alt="">
             </div>
+        </div>
+        <!-- /.row -->
+        
+        <!-- Hva er en ROV? -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Hva er en ROV?</h2>
+            </div>
+             <div class="col-md-4">
+                <img class="img-responsive" src="img/cad/Frame_subassembly.jpg" alt="">
+            </div>
+            <div class="col-md-8">
+                <p>
+	            En ROV er en fjernstyrt undervannsfarkost (Remotely Operated Vehicle) som får strøm via en tetherkabel fra topside-stasjonen på land. ROVen har flere propeller montert slik at den kan gå framover, sidelengs og snu om sin egen akse. Kommunikasjon mellom ROV og piloten på topside-stasjonen går også via denne tetherkabelen. Video, kamerabilder og andre sensordata blir sendt opp fra ROVen, og piloten styrer den med en kontroll. Mange ROVer har manipulatorarmer for å gjøre arbeid under vann og disse styres av piloten. ROVer kan utstyres med mye energikrevende utstyr siden de får strøm fra topside-stasjonen, og de kan sende opp video og data via en fiber i ROV-kabelen. 
+<br><br>
+ROV brukes til å inspisere og arbeide under vann. Med en sterk og presis manipulator kan den erstatte dykkere i mange arbeidsoperasjoner. ROVen kan også gå mye dypere. Arbeid på flere tusen meters dyp er mulig, og ROVer er helt uunnværlige for installasjoner av utstyr for utvinning av olje og gass på dypt vann.
+<br><br>
+Bildet viser ROVen vi utviklet for scanning av havbunnen. En annen ROV er under utvikling for konkuransen.              
+            </div>
+
         </div>
         <!-- /.row -->
 
@@ -129,63 +167,119 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">
-                    Welcome to Modern Business
+                	Vår visjon
                 </h1>
             </div>
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
+                        <h4></i> Inspirasjon</h4>
                     </div>
                     <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
+                        <p>Vortex skal skape en tverrfaglig arena for mestring innenfor subseateknologi, samt gi grunnlag for å inspirere til innovasjon og nytenkning. Vortex skal belyse hvilke muligheter og utfordringer som subseamiljøet byr på.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-gift"></i> Free &amp; Open Source</h4>
+                        <h4></i> Erfaring</h4>
                     </div>
                     <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
+                        <p>Gjennom krevende og spennende prosjekter skal Vortex utfordre til å sette den teoretiske utdannelsen ut i praksis, og tilegne medlemmene helt unike erfaringer. Vortex skal sette bestemte og utfordrende mål, som skal nås gjennom viljen til å tilegne seg ny kunnskap og erfaringer.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-compass"></i> Easy to Use</h4>
+                        <h4></i>Utvikling</h4>
                     </div>
                     <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
+                        <p>Vortex skal skape ett krevende og profesjonelt miljø, hvor det skal legges fokus på personlig utvikling. Dette gjennom å utfordre medlemmene til å løse komplekse reelle problemer i tett samarbeid og på tvers av disipliner.</p>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- /.row -->      
+                <!-- Contact Form -->
+        <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+
+		 
+	            <!-- Contact Form -->
+        <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Vi søker nye medlemmer! Frist 28. Februar.</h3>
+                <p> Studerer du industriell design, 
+produktutvikling og produksjon eller ønsker erfaring med organisasjonsledelse? Send oss en søknad innen <b> 28. februar</b>!  <p>
+                <form name="sentMessage" id="contactForm" novalidate>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Fullt navn:</label>
+                            <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block"></p>
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Telefonnummer:</label>
+                            <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Epost:</label>
+                            <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                        </div>
+                    </div>
+<!--
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Studieretning:</label>
+                            <input type="text" class="form-control" id="studie" required data-validation-required-message="Please enter your field of study.">
+                        </div>
+                    </div>
+-->
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Skriv kort om tidligere erfaringer og hvorfor du ønsker å bli med:</label>
+                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                        </div>
+                    </div>
+                    <div id="success"></div>
+                    <!-- For success/fail messages -->
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+
+        </div>
         <!-- /.row -->
   
-		<!-- Portfolio Section -->
+        <!-- Footer -->
+       <!-- Sponsors -->
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="page-header">Gjort mulig av</h2>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
+                <a href="http://www.neo.no/" target="_blank">
                     <img class="img-responsive img-portfolio img-hover" src="img/sponsors/neo-sort-stor.png" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
+                <a href="http://www.km.kongsberg.com/" target="_blank">
+                    <img class="img-responsive img-portfolio img-hover" src="img/sponsors/kongsberg.png" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="https://www.ntnu.no/itk" target="_blank">
                     <img class="img-responsive img-portfolio img-hover" src="img/sponsors/kybb-farger-hvit-bakgrunn.png" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="img/sponsors/astrup-sort-stor.png" alt="">
+                <a href="http://astrup.no/" target="_blank">
+                    <img class="img-responsive img-portfolio img-hover" src="img/sponsors/astrup-farge-stor.png" alt="">
                 </a>
             </div>
             
@@ -197,9 +291,18 @@
         <!-- Footer -->
         <footer>
             <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Vortex NTNU 2014</p>
+                <div class="col-lg-6">
+                    <p>Copyright &copy; Vortex NTNU 2014-2016</p>
                 </div>
+                <div class="col-lg-4">
+                    <div class="fb-like" data-href="https://www.facebook.com/VortexNTNU" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+                </div>
+                
+                <div class="col-lg-2">
+                    <p> mail: <a href="mailto:post@vortexrov.no">post@vortexntnu.no</a></p>
+                </div>
+                
+                
             </div>
         </footer>
 
@@ -218,6 +321,11 @@
         interval: 5000 //changes the speed
     })
     </script>
+    
+    <!-- Contact Form JavaScript -->
+    <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
 </body>
 
