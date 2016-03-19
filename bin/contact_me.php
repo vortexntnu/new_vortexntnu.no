@@ -1,0 +1,27 @@
+<?php
+// check if fields passed are empty
+if(empty($_POST['name'])  		||
+   empty($_POST['phone']) 		||
+   empty($_POST['email']) 		||
+   empty($_POST['message'])	||
+   !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
+   {
+	echo "No arguments Provided!";
+	return false;
+   }
+	
+$name = $_POST['name'];
+$phone = $_POST['phone'];
+$email_address = $_POST['email'];
+$linje = $_POST['studie'];
+$message = $_POST['message'];
+	
+// create email body and send it	
+$to = 'post@vortexntnu.no'; // PUT YOUR EMAIL ADDRESS HERE
+$email_subject = "Form fra nettsiden:  $name"; // EDIT THE EMAIL SUBJECT LINE HERE
+$email_body = "You have received a new message from your website's contact form.\n\n"."Here are the details:\n\nName: $name\n\nPhone: $phone\n\nEmail: $email_address \n\nStudieretning: $linje\n\nMessage:\n$message";
+$headers = "From: noreply@vortexntnu.no\n";
+$headers .= "Reply-To: $email_address";	
+mail($to,$email_subject,$email_body,$headers);
+return true;			
+?>
