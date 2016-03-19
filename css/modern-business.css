@@ -91,3 +91,20 @@ footer {
         height: 70%;
     }
 }
+
+.jumbotron {
+  padding: 30px 15px;
+  margin-bottom: 30px;
+  color: inherit;
+  text-align: center;
+  
+  background-color: white;
+}
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+/*   padding-left: 5em; */
+/*   padding-right: 5em; */
+}
+
