@@ -5,12 +5,33 @@ body{
     background-attachment: fixed;
 }
 
-p {
+p{
     color: #23729b;
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 24px;
     font-size:24px;
 }
 
+#meny-bar{
+    position: relative;
+    left: 100px;
+    
+    color: #23729b;
+    font-size:24px;
+}
 
+#meny-bar ul{
+    position: relative;
+    top: 50px;    
+    list-style-type: none;
+    font-family: 
+}
+
+#logo-top{
+    float: left;
+}
+
+#main{
+    width: 50%;
+    position: absolute;
+    top: 140px;
+    left: 100px
+}
