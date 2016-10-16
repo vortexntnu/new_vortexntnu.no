@@ -8,30 +8,48 @@ body{
 p{
     color: #23729b;
     font-size:24px;
+    font-family: verdana, arial, sans-serif;
 }
 
-#meny-bar{
+#menu-bar{
     position: relative;
-    left: 100px;
-    
-    color: #23729b;
+    color: white;
     font-size:24px;
+    width: 100%;
 }
 
-#meny-bar ul{
-    position: relative;
-    top: 50px;    
+
+
+#menu-bar ul{
+    position: absolute;
+    top: 30px;
+    left: 300px;
     list-style-type: none;
-    font-family: 
+    font-family: Montserrat, sans-serif;
 }
 
-#logo-top{
-    float: left;
+#menu-bar a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu-bar a:hover{
+    color: #A72717;
 }
 
 #main{
-    width: 50%;
     position: absolute;
     top: 140px;
-    left: 100px
+}
+
+li{
+    display: inline;
+    margin: 10px;
+}
+
+#wrapper{
+    position: relative;
+    margin:0px auto;
+    width: 950px;
+    height: 95%
 }
