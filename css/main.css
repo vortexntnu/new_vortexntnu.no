@@ -7,7 +7,7 @@ body{
 
 p{
     color: #23729b;
-    font-size:24px;
+    font-size: 18px;
     font-family: verdana, arial, sans-serif;
 }
 
@@ -16,16 +16,20 @@ p{
     color: white;
     font-size:24px;
     width: 100%;
+    margin: 0px;
 }
-
-
 
 #menu-bar ul{
     position: absolute;
     top: 30px;
-    left: 300px;
-    list-style-type: none;
+    left: 280px;
+    padding: 0px;
     font-family: Montserrat, sans-serif;
+}
+
+#menu-bar li{
+    display: inline;
+    margin-right: 20px;
 }
 
 #menu-bar a{
@@ -37,19 +41,34 @@ p{
     color: #A72717;
 }
 
+#menu-bar img{
+    height: 100px;
+}
+
 #main{
     position: absolute;
     top: 140px;
-}
-
-li{
-    display: inline;
-    margin: 10px;
 }
 
 #wrapper{
     position: relative;
     margin:0px auto;
     width: 950px;
-    height: 95%
+}
+
+@media (max-width: 1054px){
+    #wrapper{
+        width: 90%;
+    }
+    #menu-bar li{
+        margin-right: 5px;
+    }
+    #menu-bar ul{
+        left: 33.18%;
+    }
+    
+}
+
+@media (max-width: 900px){
+ 
 }
