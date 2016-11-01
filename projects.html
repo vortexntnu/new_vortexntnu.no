@@ -7,11 +7,62 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <style>
+        #main>img {
+            width: 100%;
+            display: block;
+        }
+        
+        .case {
+            position: relative;
+            width: 100%;
+        }
+        
+        .left-side {
+            position: relative;
+            left: 0;
+            width: 49%;
+            height: 100%;
+        }
+        
+        .right-side {
+            position: absolute;
+            left: 51%;
+            width: 49%;
+            height: 100%;
+        }
+        
+        .left-side-r {
+            position: absolute;
+            left: 0;
+            width: 49%;
+            height: 100%;
+            top: 0;
+        }
+        
+        .right-side-r {
+            position: relative;
+            left: 51%;
+            width: 49%;
+            height: 100%;
+        }
+        
+        .vertical-align-helper {
+            position: absolute;
+            top: 50%;
+        }
+        
+        .sideimg {
+            position: relative;
+            margin-top: -50%;
+            width: 100%;
+        }
+    </style>
 </head>
 
 <body>
     <div id="wrapper">
-        <div id="menu-bar">
+        <nav id="menu-bar">
             <a href="index.html"><img src="img/logo_og_navn.png"></a>
             <ul>
                 <li><a href="index.html">HOME</a></li>
@@ -20,20 +71,68 @@
                 <li><a href="team.html">TEAM</a></li>
                 <li><a href="join.html">JOIN US</a></li>
             </ul>
-        </div>
+        </nav>
 
         <div id="main">
-            <h3>2017 MATE ROV COMPETITION CASE</h3>
-            <p>The Port of Long Beach is one of the world’s busiest seaports. It is the second-busiest container port in the United States, after the Port of Los Angeles, which it connects to. With all of the activity and vessel traffic, the Port of Long Beach is not immune to accidents and pollution. Thousands of dollars have been spent on the removal and remediation of contaminated sites. Specifically, the port managers are in need of an ROV that can</p>
+            <article id="mate2017" class="case">
+                <div class="right-side">
+                    <div class="vertical-align-helper">
+                        <img class="sideimg" src="img/placeholder1.jpg">
+                    </div>
+                </div>
+                <div class="left-side">
+                    <h3>2017 MATE ROV COMPETITION CASE</h3>
+                    <p>The Port of Long Beach is one of the world’s busiest seaports. It is the second-busiest container port in the United States, after the Port of Los Angeles, which it connects to. With all of the activity and vessel traffic, the Port of Long Beach is not immune to accidents and pollution. Thousands of dollars have been spent on the removal and remediation of contaminated sites. Specifically, the port managers are in need of a robot that can:</p>
+                    <ol>
+                        <li>Assist with the installation of a Hyperloop system to expedite the delivery of goods and streamline commerce</li>
+                        <li>Conduct maintenance on the port’s water and light show to guarantee uninterrupted entertainment</li>
+                        <li>Identify and collect samples of contaminated sediment then remediate the area to protect the health of people and the environment</li>
+                        <li>Identify the contents of containers that fell off of a cargo ship into the harbor and map the accident site to ensure the safety of the port and its operations.</li>
+                    </ol>
+                </div>
+            </article>
+            <article class="case">
+                <div class="right-side-r">
+                    <h3>2016 MATE ROV - MAELSTROM</h3>
+                    <p>NASA and Oceaneering Space Systems (OSS) have issued a request for proposals (RFP) for a first-of- its- kind, dual purpose and single launch remotely operated vehicle that can operate in the harsh environments of both the deep ocean and outer space. (Specifically, scientists and engineers at these organizations are in need of a robot that can:</p>
+                    <ol>
+                        <li>Survive transport to Jupiter’s moon Europa and operate in the ocean under its ice sheet to collect data and deploy instrumentation</li>
+                        <li>Find and recover critical equipment that sank in the Gulf of Mexico after a recent series of testing programs</li>
+                        <li>Collect samples and analyze data from oil mats located in the northern Gulf of Mexico to determine their origin</li>
+                        <li>Photograph and collect samples of deep-water corals to assess their health post-Deepwater Horizon oil spill</li>
+                        <li>Prepare a wellhead for decommission and conversion into an artificial reef</li>
+                    </ol>
+                </div>
+                <div class="left-side-r">
+                    <div class="vertical-align-helper">
+                        <img class="sideimg" src="img/placeholder1.jpg">
+                    </div>
+                </div>
+            </article>
+            <img src="img/img2.png">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 2</div>
+                    <a href="projects.html#mate2017"><img src="img/img1.jpg"></a>
+                </div>
 
-            <ul>
-                <li>Assist with the installation of a Hyperloop system to expedite the delivery of goods and streamline commerce</li>
-                <li>Conduct maintenance on the port’s water and light show to guarantee uninterrupted entertainment</li>
-                <li>Identify and collect samples of contaminated sediment then remediate the area to protect the health of people and the environment; and</li>
-                <li>Identify the contents of containers that fell off of a cargo ship into the harbor and map the accident site to ensure the safety of the port and its operations.</li>
-            </ul>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 2</div>
+                    <img src="img/img2.png">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                </div>
+            </div>
+            <br>
+            <img src="img/favicon.png">
         </div>
     </div>
+    <script src="js/slideshow.js"></script>
 </body>
 
 </html>
