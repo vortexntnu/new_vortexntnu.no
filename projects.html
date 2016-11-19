@@ -7,10 +7,21 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/template.js" defer></script>
+    <script src="js/slideshow.js" defer></script>
     <style>
-        #main>img {
+        nav li:nth-of-type(2) a{
+            color:#A72717;
+        }
+        
+        .case img {
             width: 100%;
             display: block;
+            border: 2px white;
+        }
+        
+        #botimg {
+            width: 100%;
         }
         
         .case {
@@ -61,18 +72,8 @@
 </head>
 
 <body>
+    <nav></nav>
     <div id="wrapper">
-        <nav id="menu-bar">
-            <a href="index.html"><img src="img/logo_og_navn.png"></a>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="projects.html" style="color:#A72717;">PROJECTS</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="team.html">TEAM</a></li>
-                <li><a href="join.html">JOIN US</a></li>
-            </ul>
-        </nav>
-
         <div id="main">
             <article id="mate2017" class="case">
                 <div class="right-side">
@@ -109,7 +110,7 @@
                     </div>
                 </div>
             </article>
-            <img src="img/img2.png">
+            <img id="botimg" src="img/img2.png">
             <div class="slideshow-container">
                 <div class="mySlides fade">
                     <div class="numbertext">1 / 2</div>
@@ -128,11 +129,8 @@
                     <span class="dot" onclick="currentSlide(2)"></span>
                 </div>
             </div>
-            <br>
-            <img src="img/favicon.png">
         </div>
     </div>
-    <script src="js/slideshow.js"></script>
 </body>
 
 </html>
