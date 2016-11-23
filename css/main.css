@@ -4,6 +4,7 @@ html {
 }
 
 body {
+    background-color: black;
     padding: 0px;
     margin: 0px;
     background-image: url("../img/undervann.jpg");
@@ -14,13 +15,14 @@ body {
     background-size: cover;
 }
 
-#main {
+.align {
     color: #6699FF;
     font-size: 18px;
     font-family: verdana, arial, sans-serif;
     position: relative;
-    top: 30px;
-    width: 100%;
+    top: 50px;
+    width: 950px;
+    margin: 0px auto;
 }
 
 nav {
@@ -58,21 +60,9 @@ nav img {
     height: 100px;
 }
 
-#wrapper {
-    position: relative;
-    margin: 0px auto;
-    width: 950px;
-}
-
 @media (max-width: 1054px) {
-    #wrapper {
+    .align {
         width: 90%;
-    }
-    #menu-bar li {
-        margin-right: 5px;
-    }
-    #menu-bar ul {
-        left: 33.18%;
     }
 }
 
