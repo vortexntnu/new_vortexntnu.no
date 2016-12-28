@@ -23,6 +23,7 @@ body {
     top: 50px;
     width: 950px;
     margin: 0px auto;
+    display: block;
 }
 
 nav {
