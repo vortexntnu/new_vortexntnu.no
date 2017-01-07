@@ -147,3 +147,9 @@ nav img {
 .dot:hover {
     background-color: #717171;
 }
+
+figcaption {
+    color: white;
+    font-size: 0.6em;
+    font-style: italic;
+}

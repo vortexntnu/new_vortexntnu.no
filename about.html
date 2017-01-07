@@ -41,11 +41,6 @@
             border-bottom: solid 2px #6699FF;
         }
         
-        hr {
-            background-color: #6699FF;
-            border-color: #6699FF;
-        }
-        
         .value {
             width: 31%;
         }
@@ -59,21 +54,19 @@
             margin-bottom: -10px;
         }
         
-        #story {
-            flex-wrap: wrap;
-        }
-        
-        #story p {
-            width: 50%;
-        }
-        
-        #story .imgcon {
-            width: 40%;
-        }
-        
         #story img {
             width: 100%;
         }
+        
+        figure {
+            width: 100%;
+        }
+        
+        #storytxt {
+            width: 50%;
+        }
+        
+        #storypix
     </style>
 </head>
 
@@ -114,12 +107,15 @@
             </div>
         </div>
         <h2>Our story</h2>
-        <div id="story">
-            <div class="flex">
+        <div id="story" class="flex">
+            <div id="storytxt">
                 <p>Vortex NTNU was founded in 2015, by five students with a desire to gain practical engineering skills through participation in a competition. Since Vortex NTNU became a reality, we have steadily evolved as an organisation. The project quickly generated enthusiasm among students, teachers and faculties at the Norwegian University of Science and Technology (NTNU). Soon after, local businesses and industry partnered to lend us their state-of-the-art support.</p>
-                <img src="img/about/in-action_1.jpg">
+                <p>Today Vortex is headquartered at the Department of Engineering Cybernetics (ITK), which gives us access to a hub of workshops and R&D labs on campus. NTNU in Trondheim is the leading university for science and technology in Norway with a solid international reputation and as such an ideal base for our activities. In the summer of 2016, Vortex was the first team ever to represent NTNU in the international MATE ROV competition</p>
             </div>
-            <p>Today Vortex is headquartered at the Department of Engineering Cybernetics (ITK), which gives us access to a hub of workshops and R&D labs on campus. NTNU in Trondheim is the leading university for science and technology in Norway with a solid international reputation and as such an ideal base for our activities. In the summer of 2016, Vortex was the first team ever to represent NTNU in the international MATE ROV competition</p>
+            <div id="storypix" class="flex">
+                <figure><img src="img/about/in-action_1.jpg"><figcaption>Her tenkte jeg vi kunne legge til en liten beskrivelse av bildet</figcaption></figure>
+                <figure><img src="img/about/at-the-nbl.jpg"><figcaption>Her tenkte jeg vi kunne legge til en liten beskrivelse av bildet</figcaption></figure>
+            </div>
         </div>
     </div>
 </body>
