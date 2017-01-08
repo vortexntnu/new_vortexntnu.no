@@ -60,14 +60,6 @@ nav img {
     height: 100px;
 }
 
-@media (max-width: 1054px) {
-    .align {
-        width: 90%;
-    }
-}
-
-@media (max-width: 900px) {}
-
 .slideshow-container {
     width: 100%;
     position: relative;
