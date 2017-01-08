@@ -26,6 +26,10 @@ body {
     display: block;
 }
 
+a {
+    color: #1055FF;
+}
+
 nav {
     position: relative;
     color: white;
