@@ -13,19 +13,19 @@
         nav li:nth-of-type(1) a {
             color: #A72717;
         }
+
         /* Fading animation */
-        
         #top-slide {
             top: 60px;
         }
-        
+
         .fade {
             -webkit-animation-name: fade;
             -webkit-animation-duration: 1.5s;
             animation-name: fade;
             animation-duration: 1.5s;
         }
-        
+
         @-webkit-keyframes fade {
             from {
                 opacity: 0.4
@@ -34,7 +34,7 @@
                 opacity: 1
             }
         }
-        
+
         @keyframes fade {
             from {
                 opacity: 0.4
@@ -43,40 +43,42 @@
                 opacity: 1
             }
         }
-        
+
         #noe {
+            top: 200px;
             position: relative;
-            background-color: #607070;
             width: 100%;
+            background-color: #707070;
+        }
+
+        #noe img {
+            top: 0;
         }
     </style>
 </head>
 
 <body>
-    <nav></nav>
-    <div id="top-slide" class="slideshow-container">
-        <div class="mySlides fade">
-            <div class="numbertext">1 / 2</div>
-            <a href="projects.html#mate2017"><img src="img/img1.jpg"></a>
-        </div>
+<nav></nav>
+<div id="top-slide" class="slideshow-container">
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 2</div>
+        <a href="projects.html#mate2017"><img src="img/img1.jpg"></a>
+    </div>
 
-        <div class="mySlides fade">
-            <div class="numbertext">2 / 2</div>
-            <img src="img/img2.png">
-        </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-        </div>
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 2</div>
+        <img src="img/img2.png">
     </div>
-    <div class="align">
-        <p>Trolololool eivind var her, libero et id. Porttitor nulla convallis proin ac ridiculus etiam, erat mi praesent nunc, lectus lobortis ut hendrerit mollis diam. Felis ut eget vel. Eu tellus habitasse congue vitae sit, in duis et nec auctor turpis, arcu ac dui facilis, pellentesque at duis ligula nunc, nulla est metus. In velit vel nisl vulputate, sed a, et aenean donec etiam ullamcorper, egestas lectus, sapien nonummy porttitor totam. Mollis convallis, pulvinar hendrerit pede eu massa, pellentesque volutpat ut molestie quisque, mollis potenti tempor tellus. Viverra et malesuada adipiscing, sit libero nunc nunc, enim tristique, vestibulum viverra. Hymenaeos sit integer sodales aenean sit, rhoncus et pretium, venenatis nec odio quam pellentesque, posuere nam, sociosqu ac nullam neque posuere. Vitae curabitur, integer diam quisque, donec aliquam sed phasellus laoreet ac felis, sit convallis, risus velit sit.</p>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
     </div>
-    <div id="noe">
-        <img class="align" src="img/Underlinje%20vortex%20index.png">
-    </div>
+</div>
+<div id="noe">
+    <img class="align" src="img/home/partners_square.png">
+</div>
 </body>
 
 </html>
