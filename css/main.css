@@ -15,8 +15,9 @@ body {
     background-size: cover;
 }
 
+/*  #6699FF */
 .align {
-    color: #6699FF;
+    color: white;
     font-size: 1.2em;
     font-family: verdana, arial, sans-serif;
     position: relative;
@@ -24,6 +25,9 @@ body {
     width: 950px;
     margin: 0 auto;
     display: block;
+    background-color: rgba(0,0,0,0.5);
+    padding: 30px 50px;
+    border-radius: 20px;
 }
 
 a {
