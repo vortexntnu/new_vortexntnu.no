@@ -151,3 +151,11 @@ figcaption {
     font-size: 0.6em;
     font-style: italic;
 }
+
+.flex {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}

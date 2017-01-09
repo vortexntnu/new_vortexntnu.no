@@ -13,19 +13,19 @@
         nav li:nth-of-type(1) a {
             color: #A72717;
         }
-
         /* Fading animation */
+        
         #top-slide {
             top: 60px;
         }
-
+        
         .fade {
             -webkit-animation-name: fade;
             -webkit-animation-duration: 1.5s;
             animation-name: fade;
             animation-duration: 1.5s;
         }
-
+        
         @-webkit-keyframes fade {
             from {
                 opacity: 0.4
@@ -34,7 +34,7 @@
                 opacity: 1
             }
         }
-
+        
         @keyframes fade {
             from {
                 opacity: 0.4
@@ -43,14 +43,14 @@
                 opacity: 1
             }
         }
-
+        
         #noe {
             top: 200px;
             position: relative;
             width: 100%;
             background-color: #707070;
         }
-
+        
         #noe img {
             top: 0;
         }
@@ -58,31 +58,102 @@
         .align {
             background: none;
         }
+        
+        #hei {
+            width: 100%;
+        }
+        
+        #news {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 5px 15px;
+            border-radius: 20px;
+            width: 40%;
+            font-size: 0.8em;
+        }
+        
+        #media-container-container {
+            width: 55%;
+            display: flex;
+            justify-content: center;
+        }
+        
+        #media-container {
+            width: 70%;
+        }
+        
+        #media {
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+        }
+        
+        #media div {
+            width: 50%;
+        }
+        
+        .flex {
+            width: 950px;
+        }
+        
+        .flex img {
+            width: 50%;
+        }
+        
+        h2 {
+            margin-top: 0;
+        }
+        
+        #media p, #media img {
+            margin: 0 0;
+            width: 40%;
+        }
     </style>
 </head>
 
 <body>
-<nav></nav>
-<div id="top-slide" class="slideshow-container">
-    <div class="mySlides fade">
-        <div class="numbertext">1 / 2</div>
-        <a href="projects.html#mate2017"><img src="img/img1.jpg"></a>
-    </div>
+    <nav></nav>
+    <div id="top-slide" class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 2</div>
+            <a href="projects.html#mate2017"><img src="img/img1.jpg"></a>
+        </div>
 
-    <div class="mySlides fade">
-        <div class="numbertext">2 / 2</div>
-        <img src="img/img2.png">
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 2</div>
+            <img src="img/img2.png">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
     </div>
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
+    <div class="align flex">
+        <div id="news">
+            <h2>News</h2>
+            <p>We now have a sponsorship agreement with Kjeldsberg!<br><a href="http://www.facebook.com">Read more</a></p>
+            <p>We now have a sponsorship agreement with someone else!<br><a href="http://www.facebook.com">Read more</a></p>
+            <p>We now have a sponsorship agreement with another company!<br><a href="http://www.facebook.com">Read more</a></p>
+        </div>
+        <div id="media-container-container">
+            <div id="media-container">
+                <h2>Følg oss på:</h2>
+                <div id="media">
+                    <div>
+                        <p>Snapchat</p>
+                        <img src="img/home/snapcode.png"><p>vortexntnu</p>
+                    </div>
+                    <div>
+                        <p>Facebook</p>
+                        <img src="img/home/fb-logo.png">
+                        <p>/VortexNTNU</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-<div id="noe">
-    <img class="align" src="img/Underlinje%20vortex%20index.png">
-</div>
+    <img id="hei" src="img/Underlinje%20vortex%20index.png">
 </body>
 
 </html>
