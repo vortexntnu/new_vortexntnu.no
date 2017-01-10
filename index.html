@@ -14,18 +14,18 @@
             color: #A72717;
         }
         /* Fading animation */
-        
+
         #top-slide {
             top: 60px;
         }
-        
+
         .fade {
             -webkit-animation-name: fade;
             -webkit-animation-duration: 1.5s;
             animation-name: fade;
             animation-duration: 1.5s;
         }
-        
+
         @-webkit-keyframes fade {
             from {
                 opacity: 0.4
@@ -34,7 +34,7 @@
                 opacity: 1
             }
         }
-        
+
         @keyframes fade {
             from {
                 opacity: 0.4
@@ -43,69 +43,77 @@
                 opacity: 1
             }
         }
-        
-        #noe {
-            top: 200px;
-            position: relative;
-            width: 100%;
-            background-color: #707070;
-        }
-        
+
         #noe img {
             top: 0;
         }
-        
+
         .align {
             background: none;
+            top: 130px;
         }
-        
+
         #hei {
             width: 100%;
         }
-        
+
         #news {
             background-color: rgba(0, 0, 0, 0.5);
-            padding: 5px 15px;
-            border-radius: 20px;
+            padding: 10px 10px;
+            border-radius: 10px;
             width: 40%;
             font-size: 0.8em;
+            border: solid #A72717;
+
         }
-        
-        #media-container-container {
-            width: 55%;
-            display: flex;
-            justify-content: center;
+
+        #scroll {
+            height: 20em;
+            overflow-y: scroll;
         }
-        
+
         #media-container {
-            width: 70%;
+            width: 40%;
         }
-        
+
         #media {
             width: 100%;
             display: flex;
-            justify-content: flex-start;
+            justify-content: space-between;
         }
-        
+
         #media div {
-            width: 50%;
+            width: 45%;
         }
-        
+
         .flex {
             width: 950px;
         }
-        
-        .flex img {
-            width: 50%;
-        }
-        
-        h2 {
+
+        h1,h2 {
             margin-top: 0;
         }
-        
-        #media p, #media img {
+
+        #media img {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        #media h2 {
+            margin-bottom: 5px;
+            font-size: 1.2em;
+        }
+
+        #media p {
             margin: 0 0;
-            width: 40%;
+        }
+
+        #media img {
+            margin: 0 0;
+            width: 100%;
         }
     </style>
 </head>
@@ -131,29 +139,38 @@
     </div>
     <div class="align flex">
         <div id="news">
-            <h2>News</h2>
-            <p>We now have a sponsorship agreement with Kjeldsberg!<br><a href="http://www.facebook.com">Read more</a></p>
-            <p>We now have a sponsorship agreement with someone else!<br><a href="http://www.facebook.com">Read more</a></p>
-            <p>We now have a sponsorship agreement with another company!<br><a href="http://www.facebook.com">Read more</a></p>
+
+            <div id="scroll">
+                <h1>News</h1>
+                <p><i>13.02.06</i>. We now have a sponsorship agreement with Kjeldsberg!<br><a href="http://www.facebook.com">Read more</a></p>
+                <p><i>13.02.06</i>. We now have a sponsorship agreement with someone else!<br><a href="http://www.facebook.com">Read more</a></p>
+                <p><i>13.02.06</i>. We now have a sponsorship agreement with another company!<br><a href="http://www.facebook.com">Read more</a></p>
+                <p><i>13.02.06</i>. We now have a sponsorship agreement with Kjeldsberg!<br><a href="http://www.facebook.com">Read more</a></p>
+                <p><i>13.02.06</i>. We now have a sponsorship agreement with someone else!<br><a href="http://www.facebook.com">Read more</a></p>
+                <p><i>13.02.06</i>. We now have a sponsorship agreement with another company!<br><a href="http://www.facebook.com">Read more</a></p>
+                <p><i>13.02.06</i>. We now have a sponsorship agreement with Kjeldsberg!<br><a href="http://www.facebook.com">Read more</a></p>
+                <p><i>13.02.06</i>. We now have a sponsorship agreement with someone else!<br><a href="http://www.facebook.com">Read more</a></p>
+                <p><i>13.02.06</i>. We now have a sponsorship agreement with another company!<br><a href="http://www.facebook.com">Read more</a></p>
+            </div>
         </div>
-        <div id="media-container-container">
-            <div id="media-container">
-                <h2>Følg oss på:</h2>
-                <div id="media">
-                    <div>
-                        <p>Snapchat</p>
-                        <img src="img/home/snapcode.png"><p>vortexntnu</p>
-                    </div>
-                    <div>
-                        <p>Facebook</p>
-                        <img src="img/home/fb-logo.png">
-                        <p>/VortexNTNU</p>
-                    </div>
+        <div id="media-container">
+            <div id="media">
+                <div>
+                    <h2>Følg oss på:</h2>
+                    <p>Snapchat</p>
+                    <img src="img/home/snapcode.png">
+                    <p>vortexntnu</p>
+                </div>
+                <div>
+                    <h2 style="color:rgba(0,0,0,0)">-</h2>
+                    <p>Facebook</p>
+                    <a href="https://www.facebook.com/VortexNTNU"><img src="img/home/fb-logo.png"></a>
+                    <p>/VortexNTNU</p>
                 </div>
             </div>
         </div>
     </div>
-    <img id="hei" src="img/Underlinje%20vortex%20index.png">
+    <img id="hei" src="img/home/sponsors.png">
 </body>
 
 </html>
