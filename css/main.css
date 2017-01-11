@@ -18,8 +18,9 @@ body {
 /*  #6699FF */
 .align {
     color: white;
-    font-size: 1.2em;
-    font-family: verdana, arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: "Roboto", arial, sans-serif;
     position: relative;
     top: 50px;
     width: 950px;
