@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vortex NTNU</title>
+    <link rel="icon" type="img/png" href="../img/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <script src="../js/template.js" defer></script>
+    <script src="../js/slideshow.js" defer></script>
+    <style>
+        nav a:nth-of-type(1) {
+            color: #A72717;
+        }
+        /* Fading animation */
+
+        #top-slide {
+            top: 60px;
+        }
+
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @-webkit-keyframes fade {
+            from {
+                opacity: 0.4
+            }
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes fade {
+            from {
+                opacity: 0.4
+            }
+            to {
+                opacity: 1
+            }
+        }
+
+        #noe img {
+            top: 0;
+        }
+
+        .align {
+            background: none;
+            top: 130px;
+        }
+
+        #hei {
+            width: 100%;
+        }
+
+        #news {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px 10px;
+            border-radius: 10px;
+            width: 50%;
+            font-size: 0.8em;
+            border: solid #A72717;
+
+        }
+
+        #scroll {
+            height: 30em;
+            overflow-y: scroll;
+        }
+
+        #scroll img {
+            width: 2em;
+            margin-right: 10px;
+        }
+
+        #scroll h1 {
+            display: inline;
+        }
+
+        #media-container {
+            width: 40%;
+        }
+
+        #media {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #media div {
+            width: 45%;
+        }
+
+        .flex {
+            width: 950px;
+        }
+
+        h1,h2 {
+            margin-top: 0;
+        }
+
+        #media img {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        #media h2 {
+            margin-bottom: 5px;
+            font-size: 1.2em;
+        }
+
+        #media p {
+            margin: 0 0;
+        }
+
+        #media img {
+            margin: 0 0;
+            width: 100%;
+        }
+        
+        #footer {
+            background-color: #252525;
+            width: 100%;
+            height: 300px;
+            margin-top: -30px;
+        }
+
+        table td:first-of-type {
+            padding-right: 10px;
+            font-weight: bold;
+            font-size: 1.2em;
+            font-style: italic;
+        }
+
+        td {
+            vertical-align: top;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav></nav>
+    <div id="top-slide" class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 2</div>
+            <a href="../projects.html#mate2017"><img src="../img/img1.jpg"></a>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 2</div>
+            <img src="../img/img2.png">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+    </div>
+    <div class="align flex">
+        <div id="news">
+
+            <div id="scroll">
+                <a href="https://www.facebook.com/VortexNTNU"><img src="../img/home/fb-logo.png"></a><h1>News</h1>
+                <table>
+                    <tr><td>13.32.06</td><td>We now have a sponsorship agreement with Kjeldsberg!</td></tr>
+                    <tr><td>13.02.06</td><td>We now have a sponsorship agreement with Kjeldsberg!</td></tr>
+                    <tr><td>13.02.06</td><td>We now have a sponsorship agreement with Kjeldsberg!</td></tr>
+                    <tr><td>13.02.06</td><td>We now have a sponsorship agreement with Kjeldsberg!</td></tr>
+                    <tr><td>13.02.06</td><td>We now have a sponsorship agreement with Kjeldsberg!</td></tr>
+                </table>
+            </div>
+        </div>
+        <div id="media-container">
+            <div id="media">
+                <div>
+                    <h2>Følg oss på:</h2>
+                    <p>Snapchat</p>
+                    <img src="../img/home/snapcode.png">
+                    <p>vortexntnu</p>
+                </div>
+                <div>
+                    <h2 style="color:rgba(0,0,0,0)">-</h2>
+                    <p>Facebook</p>
+                    <a href="https://www.facebook.com/VortexNTNU"><img src="../img/home/fb-logo.png"></a>
+                    <p>/VortexNTNU</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img id="hei" src="../img/home/sponsors.png">
+    <div id="footer">
+        <div class="align">
+            <p>Lorem ipsum</p>
+        </div>
+    </div>
+</body>
+
+</html>
