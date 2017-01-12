@@ -5,6 +5,7 @@
     <title>Vortex NTNU</title>
     <link rel="icon" type="img/png" href="img/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src="js/template.js" defer></script>
@@ -53,6 +54,30 @@
             top: 130px;
         }
 
+        .center-align {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .center-align img {
+            width: 2em;
+        }
+
+        .center-align a {
+            line-height: 0;
+            margin-right: 10px;
+            margin-left: 5px;
+        }
+
+        tr:hover {
+            text-decoration: underline;
+        }
+
+        .center-align h1 {
+            margin: 0 0;
+        }
+
         #hei {
             width: 100%;
         }
@@ -72,15 +97,6 @@
             overflow-y: scroll;
         }
 
-        #scroll img {
-            width: 2em;
-            margin-right: 10px;
-        }
-
-        #scroll h1 {
-            display: inline;
-        }
-
         #media {
             width: 100%;
             display: flex;
@@ -93,10 +109,6 @@
 
         .flex {
             width: 950px;
-        }
-
-        h1,h2 {
-            margin-top: 0;
         }
 
         #media img {
@@ -164,7 +176,7 @@
         <div id="news">
 
             <div id="scroll">
-                <a href="https://www.facebook.com/VortexNTNU"><img src="img/home/fb-logo.png"></a><h1>News</h1>
+                <div class="center-align"><a href="https://www.facebook.com/VortexNTNU"><img src="img/home/fb-logo.png"></a><h1>News</h1></div>
                 <table>
                     <tr><td>13.32.06</td><td>We now have a sponsorship agreement with Kjeldsberg!</td></tr>
                     <tr><td>13.02.06</td><td>We now have a sponsorship agreement with Kjeldsberg!</td></tr>
