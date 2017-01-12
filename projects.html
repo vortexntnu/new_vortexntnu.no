@@ -14,11 +14,12 @@
         nav a:nth-of-type(2) {
             color: #A72717;
         }
-        
+
+        /*
         #botimg {
             width: 100%;
         }
-        
+
         .case {
             position: relative;
             display: flex;
@@ -26,15 +27,50 @@
             align-items: center;
             width: 100%;
         }
-        
+
         .case-info,
         .sideimg {
             position: relative;
             width: 47.5%;
         }
-        
+
+
         .sideimg {
             object-fit: contain;
+        }
+        */
+        
+        section {
+            margin-bottom: 20px;
+        }
+        
+        .left-content {
+            width: 52.5%;
+        }
+        
+        .right-content {
+            width: 40%;
+        }
+        
+        h1 {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+        
+        figure img {
+            width: 100%;
+        }
+        
+        figure {
+            width: 100%;
+            margin: 10px 0;
+        }
+        
+        .vertical-flex {
+            display: flex;
+            flex-wrap: wrap;
+            flex-flow: column;
+            justify-content: space-around;
         }
     </style>
 </head>
@@ -42,52 +78,29 @@
 <body>
     <nav></nav>
     <div class="align">
-        <article id="mate2017" class="case">
-            <div class="case-info">
-                <h3>2017 MATE ROV COMPETITION CASE</h3>
-                <p>The Port of Long Beach is one of the world’s busiest seaports. It is the second-busiest container port in the United States, after the Port of Los Angeles, which it connects to. With all of the activity and vessel traffic, the Port of Long Beach is not immune to accidents and pollution. Thousands of dollars have been spent on the removal and remediation of contaminated sites. Specifically, the port managers are in need of a robot that can:</p>
-                <ol>
-                    <li>Assist with the installation of a Hyperloop system to expedite the delivery of goods and streamline commerce</li>
-                    <li>Conduct maintenance on the port’s water and light show to guarantee uninterrupted entertainment</li>
-                    <li>Identify and collect samples of contaminated sediment then remediate the area to protect the health of people and the environment</li>
-                    <li>Identify the contents of containers that fell off of a cargo ship into the harbor and map the accident site to ensure the safety of the port and its operations.</li>
-                </ol>
+        <section>
+            <h1>The MATE Competition (2015 - 2017)</h1>
+            <div class="flex">
+                <div class="left-content">
+                    <p>The <a href="http://www.marinetech.org" target="_blank">MATE international ROV</a> competition provides an excellent framework for acquiring and utilizing competence from various fields of study. MATE challenges students to build an ROV capable of tackling specific tasks to compete against teams from around the world. The competition is not won entirely by the best performing ROV but rather an overall product in addition to technical reports, poster displays, and financial, sales, and engineering presentations.</p>
+                    <p>The MATE competition challenges over 100 teams annually to take the leap of incorporating design and manufacturing, in conjunction with the marketing and sales aspects of engineering. Each team’s performance are evaluated by working professionals who serve as competition judges. The tasks given in the competition shall simulate the challenges that industry faces in the ocean workplace.</p>
+                    <p>The competition is held annually at a new location to highlight different problem areas. This year the competition is located at Long Beach, California. Vortex NTNU will participate in the Explorer class - the highest and most demanding level of the MATE competition. Teams are given points based on performance at a series of events, and can earn up to a maximum of 615 points in total. The team with the highest score wins.</p>
+                </div>
+                <div class="right-content vertical-flex">
+                    <figure><img src="img/home/nasa.jpg">
+                        <figcaption>The competition of 2016 was at NASA's neutral buoyancy lab, Houston, Texas</figcaption>
+                    </figure>
+                    <figure><img src="img/home/long-beach.jpg">
+                        <figcaption>In 2017 the competition will be at Long Beach, California</figcaption>
+                    </figure>
+                </div>
             </div>
-            <img class="sideimg" src="img/long%20blablalba.jpg">
-        </article>
-        <article class="case">
-            <img class="sideimg" src="img/teambilde-USA2016.jpg">
-            <div class="case-info">
-                <h3>2016 MATE ROV - MAELSTROM</h3>
-                <p>NASA and Oceaneering Space Systems (OSS) have issued a request for proposals (RFP) for a first-of- its- kind, dual purpose and single launch remotely operated vehicle that can operate in the harsh environments of both the deep ocean and outer space. Specifically, scientists and engineers at these organizations are in need of a robot that can:</p>
-                <ol>
-                    <li>Survive transport to Jupiter’s moon Europa and operate in the ocean under its ice sheet to collect data and deploy instrumentation</li>
-                    <li>Find and recover critical equipment that sank in the Gulf of Mexico after a recent series of testing programs</li>
-                    <li>Collect samples and analyze data from oil mats located in the northern Gulf of Mexico to determine their origin</li>
-                    <li>Photograph and collect samples of deep-water corals to assess their health post-Deepwater Horizon oil spill</li>
-                    <li>Prepare a wellhead for decommission and conversion into an artificial reef</li>
-                </ol>
-            </div>
-        </article>
-        <img id="botimg" src="img/img2.png">
-        <div class="slideshow-container">
-            <div class="mySlides fade">
-                <div class="numbertext">1 / 2</div>
-                <img src="img/Tech%20Specs%201.jpg">
-            </div>
-
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 2</div>
-                <img src="img/Tech%20Specs%202.jpg">
-            </div>
-
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-            </div>
-        </div>
+        </section>
+        <table>
+            <tr>
+                he
+            </tr>
+        </table>
     </div>
 </body>
 
