@@ -69,9 +69,40 @@
             margin-right: 10px;
             margin-left: 5px;
         }
-
+        
+        tr {
+            display: block;
+            margin-top: 20px;
+        }
+        
+        td a {
+            text-decoration: none;
+            color: white;
+        }
+        
         tr:hover {
-            text-decoration: underline;
+            border-bottom: solid 1px;
+        }
+        
+        tr:hover+tr {
+            margin-top: 19px;
+        }
+        
+        td:first-of-type {
+            padding-right: 10px;
+            font-weight: bold;
+            font-size: 1.2em;
+            font-style: italic;
+        }
+
+        td {
+            vertical-align: top;
+            line-height: 1em;
+        }
+        
+        td:nth-of-type(2) a {
+            margin-top: 0.15em;
+            display: block;
         }
 
         .center-align h1 {
@@ -94,7 +125,7 @@
 
         #scroll {
             height: 30em;
-            overflow-y: scroll;
+            overflow-y: auto;
         }
 
         #media {
@@ -138,18 +169,6 @@
             height: 300px;
             margin-top: -30px;
         }
-
-        table td:first-of-type {
-            padding-right: 10px;
-            font-weight: bold;
-            font-size: 1.2em;
-            font-style: italic;
-        }
-
-        td {
-            vertical-align: top;
-            padding-top: 15px;
-        }
     </style>
 </head>
 
@@ -178,11 +197,11 @@
             <div id="scroll">
                 <div class="center-align"><a href="https://www.facebook.com/VortexNTNU"><img src="img/home/fb-logo.png"></a><h1>News</h1></div>
                 <table>
-                    <tr><td>13.32.06</td><td>We now have a sponsorship agreement with Kjeldsberg!</td></tr>
-                    <tr><td>13.02.06</td><td>We now have a sponsorship agreement with Kjeldsberg!</td></tr>
-                    <tr><td>13.02.06</td><td>We now have a sponsorship agreement with Kjeldsberg!</td></tr>
-                    <tr><td>13.02.06</td><td>We now have a sponsorship agreement with Kjeldsberg!</td></tr>
-                    <tr><td>13.02.06</td><td>We now have a sponsorship agreement with Kjeldsberg!</td></tr>
+                    <tr><td><a href="https://www.facebook.com">13.32.06</a></td><td><a href="https://www.facebook.com">We now have a sponsorship agreement with Kjeldsberg!</a></td></tr>
+                    <tr><td><a href="https://www.facebook.com">13.32.06</a></td><td><a href="https://www.facebook.com">We now have a sponsorship agreement with Kjeldsberg!</a></td></tr>
+                    <tr><td><a href="https://www.facebook.com">13.32.06</a></td><td><a href="https://www.facebook.com">We now have a sponsorship agreement with Kjeldsberg!</a></td></tr>
+                    <tr><td><a href="https://www.facebook.com">13.32.06</a></td><td><a href="https://www.facebook.com">We now have a sponsorship agreement with Kjeldsberg!</a></td></tr>
+                    <tr><td><a href="https://www.facebook.com">13.32.06</a></td><td><a href="https://www.facebook.com">We now have a sponsorship agreement with Kjeldsberg!</a></td></tr>
                 </table>
             </div>
         </div>
