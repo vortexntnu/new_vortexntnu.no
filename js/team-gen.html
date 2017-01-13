@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Free HTML!</title>
+</head>
+<body>
+<script>
+    function getFileName(navn){
+        navn = navn.replace(/ /g,"");
+        navn = navn.toLowerCase();
+        navn = "img/team/"+navn+".png";
+        return navn
+    }
+
+    var teams = ["The Board","Marketing","Control","Electronics","Mechanical"];
+    var teamTxt = ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus leo eget ex vestibulum finibus. Mauris congue lacus quis sodales maximus. Sed efficitur sed enim id elementum. Praesent id feugiat ante. Phasellus quis tortor ac eros tincidunt volutpat nec nec felis. Vestibulum luctus est ut erat rhoncus, ac suscipit erat iaculis.","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus leo eget ex vestibulum finibus. Mauris congue lacus quis sodales maximus. Sed efficitur sed enim id elementum. Praesent id feugiat ante. Phasellus quis tortor ac eros tincidunt volutpat nec nec felis. Vestibulum luctus est ut erat rhoncus, ac suscipit erat iaculis.","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus leo eget ex vestibulum finibus. Mauris congue lacus quis sodales maximus. Sed efficitur sed enim id elementum. Praesent id feugiat ante. Phasellus quis tortor ac eros tincidunt volutpat nec nec felis. Vestibulum luctus est ut erat rhoncus, ac suscipit erat iaculis.","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus leo eget ex vestibulum finibus. Mauris congue lacus quis sodales maximus. Sed efficitur sed enim id elementum. Praesent id feugiat ante. Phasellus quis tortor ac eros tincidunt volutpat nec nec felis. Vestibulum luctus est ut erat rhoncus, ac suscipit erat iaculis.","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus leo eget ex vestibulum finibus. Mauris congue lacus quis sodales maximus. Sed efficitur sed enim id elementum. Praesent id feugiat ante. Phasellus quis tortor ac eros tincidunt volutpat nec nec felis. Vestibulum luctus est ut erat rhoncus, ac suscipit erat iaculis."];
+    var json = [
+        [
+            {
+                "navn" : "Peter Aaser",
+                "rolle" : "Project Manager",
+                "hjemby" : "Asker",
+                "studie" : "Dateteknikk"
+            },
+            {
+                "navn" : "Arne Bui",
+                "rolle" : "Deputy Project Manager",
+                "hjemby" : "Rygge",
+                "studie" : "Industriell økonomi og teknologiledelse"
+            },
+            {
+                "navn" : "Dong Zhang",
+                "rolle" : "Head of Finance",
+                "hjemby" : "Oslo",
+                "studie" : "Industriell økonomi og teknologiledelse"
+            },
+            {
+                "navn" : "Sverre Spetalen",
+                "rolle" : "Head of Marketing",
+                "hjemby" : "Oslo",
+                "studie" : "Ingeniørvitenskap og IKT"
+            },
+            {
+                "navn" : "Morten Fyhn Amundsen",
+                "rolle" : "Chief Control",
+                "hjemby" : "?",
+                "studie" : "Teknisk kybernetikk"
+            },
+            {
+                "navn" : "Karl Ylvisaker",
+                "rolle" : "Chief Electronics",
+                "hjemby" : "Tromsø",
+                "studie" : "Kybernetikk og Robotikk"
+            },
+            {
+                "navn" : "Kristian Bortne",
+                "rolle" : "Chief Mechanical",
+                "hjemby" : "Måløy",
+                "studie" : "Informatikk"
+            }
+        ],
+        [
+            {
+                "navn" : "Sverre Spetalen",
+                "rolle" : "Head of Marketing",
+                "hjemby" : "Oslo",
+                "studie" : "Ingeniørvitenskap og IKT"
+            },
+            {
+                "navn" : "Eivind Salvesen",
+                "rolle" : "Sponsorship Manager",
+                "hjemby" : "Stavanger",
+                "studie" : "Kybernetikk og robotikk"
+            },
+            {
+                "navn" : "Erik Dymbe",
+                "rolle" : "Web & Graphics",
+                "hjemby" : "Bergen",
+                "studie" : "Informatikk"
+            }
+        ],
+        [
+            {
+                "navn" : "Morten Fyhn Amundsen",
+                "rolle" : "Chief Control",
+                "hjemby" : "?",
+                "studie" : "Teknisk kybernetikk"
+            },
+            {
+                "navn" : "Ingrid Onstein",
+                "rolle" : "GUI",
+                "hjemby" : "?",
+                "studie" : "?"
+            },
+            {
+                "navn" : "Sindre Hansen",
+                "rolle" : "HW interface",
+                "hjemby" : "Mo i Rana",
+                "studie" : "Teknisk kybernetikk"
+            },
+            {
+                "navn" : "Vegard Kamsvåg",
+                "rolle" : "Simulator",
+                "hjemby" : "Molde",
+                "studie" : "Kybernetikk og robotikk"
+            }
+        ],
+        [
+            {
+                "navn" : "Karl Ylvisaker",
+                "rolle" : "Chief Electronics",
+                "hjemby" : "Tromsø",
+                "studie" : "Kybernetikk og Robotikk"
+            },
+            {
+                "navn" : "Simon L'orange",
+                "rolle" : "Er med i Elektronikk",
+                "hjemby" : "Gjerdrum",
+                "studie" : "Elektronikk"
+            },
+            {
+                "navn" : "Lars Haugseng Andersen",
+                "rolle" : "Er også med i elektronikk",
+                "hjemby" : "Grimstad",
+                "studie" : "Elektronikk"
+            },
+            {
+                "navn" : "Aksel Sætre Lenes",
+                "rolle" : "Er også også med i elektronikk",
+                "hjemby" : "Kolbotn",
+                "studie" : "Kybernetikk og Robotikk"
+            }
+        ],
+        [
+            {
+                "navn" : "Kristian Bortne",
+                "rolle" : "Chief Mechanical",
+                "hjemby" : "Måløy",
+                "studie" : "Informatikk"
+            },
+            {
+                "navn" : "Petter Hoem Sletsjøe",
+                "rolle" : "Maskin",
+                "hjemby" : "Sandefjord",
+                "studie" : "Produktutvikling og produksjon"
+            },
+            {
+                "navn" : "Vegard Slettahjell Skjefstad",
+                "rolle" : "Maskin",
+                "hjemby" : "Flateby",
+                "studie" : "Produktutvikling og produksjon"
+            },
+            {
+                "navn" : "Greatania Juardi",
+                "rolle" : "Maskin",
+                "hjemby" : "London",
+                "studie" : "Produktutvikling og produksjon"
+            }
+        ]
+    ];
+
+    var html = "";
+
+    for(i = 0; i < json.length; i++) {
+        html += '\
+        <div class="team">\n\
+            <div class="top">\n\
+                <div class="member">\n\
+                    <img src="' + getFileName(json[i][0]["navn"]) + '">\n\
+                    <h3> ' + json[i][0]["navn"] + ' </h3>\n\
+                    <p>'+json[i][0]["rolle"]+'<br>Hometown: '+json[i][0]["hjemby"]+'</p>\n\
+                </div>\n\
+                <div class="info">\n\
+                    <h2>'+teams[i]+'</h2>\n\
+                    <p>'+teamTxt[i]+'</p>\n\
+                </div>\n\
+            </div>\n\
+            <div class="bot">';
+
+        for(m = 1; m < json[i].length; m++) {
+            html += '\n\
+                <div class="member">\n\
+                    <img src="' + getFileName(json[i][m]["navn"]) + '">\n\
+                    <h3> ' + json[i][m]["navn"] + ' </h3>\n\
+                    <p>'+json[i][m]["rolle"]+'<br>Hometown: '+json[i][m]["hjemby"]+'</p>\n\
+                </div>'
+        }
+
+        html += '\n\
+            </div>\n\
+        </div>\n';
+    }
+
+    console.log(html);
+</script>
+</body>
+</html>

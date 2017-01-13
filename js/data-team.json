@@ -1,0 +1,144 @@
+[
+  [
+    {
+      "navn" : "Peter Aaser",
+      "rolle" : "Project Manager",
+      "hjemby" : "Asker",
+      "studie" : "Dateteknikk"
+    },
+    {
+      "navn" : "Arne Bui",
+      "rolle" : "Deputy Project Manager",
+      "hjemby" : "Rygge",
+      "studie" : "Industriell økonomi og teknologiledelse"
+    },
+    {
+      "navn" : "Dong Zhang",
+      "rolle" : "Head of Finance",
+      "hjemby" : "Oslo",
+      "studie" : "Industriell økonomi og teknologiledelse"
+    },
+    {
+      "navn" : "Sverre Spetalen",
+      "rolle" : "Head of Marketing",
+      "hjemby" : "Oslo",
+      "studie" : "Ingeniørvitenskap og IKT"
+    },
+    {
+      "navn" : "Morten Fyhn Amundsen",
+      "rolle" : "Chief Control",
+      "hjemby" : "?",
+      "studie" : "Teknisk kybernetikk"
+    },
+    {
+      "navn" : "Karl Ylvisaker",
+      "rolle" : "Chief Electronics",
+      "hjemby" : "Tromsø",
+      "studie" : "Kybernetikk og Robotikk"
+    },
+    {
+      "navn" : "Kristian Bortne",
+      "rolle" : "Chief Mechanical",
+      "hjemby" : "Måløy",
+      "studie" : "Informatikk"
+    }
+  ],
+  [
+    {
+      "navn" : "Sverre Spetalen",
+      "rolle" : "Head of Marketing",
+      "hjemby" : "Oslo",
+      "studie" : "Ingeniørvitenskap og IKT"
+    },
+    {
+      "navn" : "Eivind Salvesen",
+      "rolle" : "Sponsorship Manager",
+      "hjemby" : "Stavanger",
+      "studie" : "Kybernetikk og robotikk"
+    },
+    {
+      "navn" : "Erik Dymbe",
+      "rolle" : "Web & Graphics",
+      "hjemby" : "Bergen",
+      "studie" : "Informatikk"
+    }
+  ],
+  [
+    {
+      "navn" : "Morten Fyhn Amundsen",
+      "rolle" : "Chief Control",
+      "hjemby" : "?",
+      "studie" : "Teknisk kybernetikk"
+    },
+    {
+      "navn" : "Ingrid Onstein",
+      "rolle" : "GUI",
+      "hjemby" : "?",
+      "studie" : "?"
+    },
+    {
+      "navn" : "Sindre Hansen",
+      "rolle" : "HW interface",
+      "hjemby" : "Mo i Rana",
+      "studie" : "Teknisk kybernetikk"
+    },
+    {
+      "navn" : "Vegard Kamsvåg",
+      "rolle" : "Simulator",
+      "hjemby" : "Molde",
+      "studie" : "Kybernetikk og robotikk"
+    }
+  ],
+  [
+    {
+      "navn" : "Karl Ylvisaker",
+      "rolle" : "Chief Electronics",
+      "hjemby" : "Tromsø",
+      "studie" : "Kybernetikk og Robotikk"
+    },
+    {
+      "navn" : "Simon L'orange",
+      "rolle" : "Er med i Elektronikk",
+      "hjemby" : "Gjerdrum",
+      "studie" : "Elektronikk"
+    },
+    {
+      "navn" : "Lars Haugseng Andersen",
+      "rolle" : "Er også med i elektronikk",
+      "hjemby" : "Grimstad",
+      "studie" : "Elektronikk"
+    },
+    {
+      "navn" : "Aksel Sætre Lenes",
+      "rolle" : "Er også også med i elektronikk",
+      "hjemby" : "Kolbotn",
+      "studie" : "Kybernetikk og Robotikk"
+    }
+  ],
+  [
+    {
+      "navn" : "Kristian Bortne",
+      "rolle" : "Chief Mechanical",
+      "hjemby" : "Måløy",
+      "studie" : "Informatikk"
+    },
+    {
+      "navn" : "Petter Hoem Sletsjøe",
+      "rolle" : "Maskin",
+      "hjemby" : "Sandefjord",
+      "studie" : "Produktutvikling og produksjon"
+    },
+    {
+      "navn" : "Vegard Slettahjell Skjefstad",
+      "rolle" : "Maskin",
+      "hjemby" : "Flateby",
+      "studie" : "Produktutvikling og produksjon"
+    },
+    {
+      "navn" : "Greatania Juardi",
+      "rolle" : "Maskin",
+      "hjemby" : "London",
+      "studie" : "Produktutvikling og produksjon"
+    }
+  ]
+]
