@@ -27,8 +27,8 @@
     {
       "navn" : "Morten Fyhn Amundsen",
       "rolle" : "Chief Control",
-      "hjemby" : "?",
-      "studie" : "Teknisk kybernetikk"
+      "hjemby" : "Trondheim",
+      "studie" : "Kybernetikk og robotikk"
     },
     {
       "navn" : "Karl Ylvisaker",
@@ -67,20 +67,20 @@
     {
       "navn" : "Morten Fyhn Amundsen",
       "rolle" : "Chief Control",
-      "hjemby" : "?",
-      "studie" : "Teknisk kybernetikk"
+      "hjemby" : "Trondheim",
+      "studie" : "Kybernetikk og robotikk"
     },
     {
-      "navn" : "Ingrid Onstein",
+      "navn" : "Ingrid Fjordheim Onstein",
       "rolle" : "GUI",
-      "hjemby" : "?",
-      "studie" : "?"
+      "hjemby" : "Gjøvik",
+      "studie" : "Kybernetikk og robotikk"
     },
     {
       "navn" : "Sindre Hansen",
       "rolle" : "HW interface",
       "hjemby" : "Mo i Rana",
-      "studie" : "Teknisk kybernetikk"
+      "studie" : "Kybernetikk og robotikk"
     },
     {
       "navn" : "Vegard Kamsvåg",
