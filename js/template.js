@@ -9,6 +9,7 @@ nav.innerHTML = "\
         <a href='about.html'>ABOUT</a>\
         <a href='team.html'>TEAM</a>\
         <a href='join.html'>JOIN US</a>\
+        <a href='contact.html'>CONTACT</a>\
 </div>";
 
 console.log(nav);
