@@ -18,12 +18,16 @@
         }
         
         #map {
-            height: 400px;
-            width: 500px;
+            height: 250px;
+            width: 300px;
         }
         
         p {
-            margin: 0 0;            
+            margin: 0 0;
+        }
+        
+        .flex {
+            align-items: flex-start
         }
     </style>
 </head>
@@ -32,11 +36,15 @@
     <nav></nav>
     <div class="align">
         <h1>Contact</h1>
-        <p>Leder - Peter Aaser : <a href="mailto:heh@fdfjkl">insertMailHere@vortex.no</a></p>
-        <p>Nestleder - Arne Bui : <a href="mailto:heh@fdfjkl">insertMailHere@vortex.no</a></p>
-        <p>Sponsorkontakt - Eivind Salvesen : <a href="mailto:heh@fdfjkl">insertMailHere@vortex.no</a></p>
-        <div id="map"></div>
+        <div class="flex">
+            <div>
+                <p>Leder - Peter Aaser : <a href="mailto:heh@fdfjkl">insertMailHere@vortex.no</a></p>
+                <p>Nestleder - Arne Bui : <a href="mailto:heh@fdfjkl">insertMailHere@vortex.no</a></p>
+                <p>Sponsorkontakt - Eivind Salvesen : <a href="mailto:heh@fdfjkl">insertMailHere@vortex.no</a></p>
+            </div>
+            <div id="map"></div>
+        </div>
     </div>
 </body>
-    
+
 </html>
