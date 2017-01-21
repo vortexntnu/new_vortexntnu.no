@@ -41,6 +41,8 @@ nav {
     position: absolute;
     left: 0;
     right: 0;
+    padding-bottom: 7px;
+    padding-top: 3px;
     color: white;
     height: 100px;
     -webkit-transition: background-color 0.4s, height 0.4s; /* Safari */
@@ -54,11 +56,13 @@ nav {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 50px;
 }
 
 #core-nav>a {
     height: 100%;
     text-decoration: none;
+    display: inline-block;
 }
 
 #core-nav img {
@@ -177,4 +181,19 @@ figcaption {
     justify-content: space-between;
     width: 100%;
     align-items: center;
+}
+
+.vertical-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+figure img {
+    width: 100%;
+}
+        
+figure {
+    width: 100%;
+    margin: 10px 0;
 }

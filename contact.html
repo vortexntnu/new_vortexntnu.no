@@ -9,9 +9,20 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src="js/template.js" defer></script>
+    <script src="js/sticky-nav.js" defer></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDY0EslAdUjI7QbTxykCn47PB7vgcBo39I&callback=initMap"></script>
     <style>
         #link-wrapper a:nth-of-type(6) {
             color: #A72717;
+        }
+        
+        #map {
+            height: 400px;
+            width: 500px;
+        }
+        
+        p {
+            margin: 0 0;            
         }
     </style>
 </head>
@@ -20,9 +31,24 @@
     <nav></nav>
     <div class="align">
         <h1>Contact</h1>
-        <!--<p><div>Leder - Peter Aaser :</div><a href="mailto:heh@fdfjkl">insertMailHere@vortex.no</a></p>
-        <p><div>Nestleder - Arne Bui :</div><a href="mailto:heh@fdfjkl">insertMailHere@vortex.no</a></p>-->
+        <p>Leder - Peter Aaser : <a href="mailto:heh@fdfjkl">insertMailHere@vortex.no</a></p>
+        <p>Nestleder - Arne Bui : <a href="mailto:heh@fdfjkl">insertMailHere@vortex.no</a></p>
+        <p>Sponsorkontakt - Eivind Salvesen : <a href="mailto:heh@fdfjkl">insertMailHere@vortex.no</a></p>
+        <div id="map"></div>
     </div>
+    <script>
+      function initMap() {
+        var kontor = {lat: 63.418551, lng: 10.399409};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: kontor
+        });
+        var marker = new google.maps.Marker({
+          position: kontor,
+          map: map
+        });
+      }
+    </script>
 </body>
-
+    
 </html>
