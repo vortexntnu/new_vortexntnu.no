@@ -18,8 +18,8 @@
         }
         
         #map {
-            height: 250px;
-            width: 300px;
+            height: 400px;
+            width: 500px;
         }
         
         p {
@@ -27,7 +27,28 @@
         }
         
         .flex {
-            align-items: flex-start
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+        
+        .mail img {
+            display: block;
+            width: 40px;
+            margin: 5px 10px 5px 0;
+        }
+        
+        .mail {
+            display: flex;
+            align-items: center;
+        }
+        
+        .contact {
+            width: 100%;
+            margin-bottom: 40px;
+        }
+        
+        h3 {
+            margin-bottom: 5px;
         }
     </style>
 </head>
@@ -38,12 +59,22 @@
         <h1>Contact</h1>
         <div class="flex">
             <div>
-                <p>Leder - Peter Aaser : <a href="mailto:heh@fdfjkl">insertMailHere@vortex.no</a></p>
-                <p>Nestleder - Arne Bui : <a href="mailto:heh@fdfjkl">insertMailHere@vortex.no</a></p>
-                <p>Sponsorkontakt - Eivind Salvesen : <a href="mailto:heh@fdfjkl">insertMailHere@vortex.no</a></p>
+                <div class="contact">
+                    <h3>Vortex</h3>
+                    <p>Rom D038,<br> O. S. Bragstads plass 2D,<br> Elektroblokk D, 1. etg.,<br> Gløshaugen, NTNU,<br> NO-7491 Trondheim<br> Norway</p>
+                    <div class="mail"><img src="img/contact/mail-icon.png"><a href="mailto:heh@fdfjkl">insertMailHere@vortex.no</a>
+                    </div>
+                </div>
+                <div class="contact">
+                    <h3>Sponsorship Manager</h3>
+                    <p>Eivind Salvesen<br></p>
+                    <div class="mail"><img src="img/contact/mail-icon.png"><a href="mailto:heh@fdfjkl">insertMailHere@vortex.no</a>
+                    </div>
+                </div>
             </div>
             <div id="map"></div>
         </div>
+
     </div>
 </body>
 
