@@ -3,7 +3,7 @@ nav = document.querySelector("nav");
 
 nav.innerHTML = "\
     <div id='core-nav'>\
-        <a href='index.html'><img src='img/logo_og_navn.png'></a>\
+        <a id='img-link' href='index.html'><img src='img/logo_og_navn.png'></a>\
         <div id='link-wrapper'>\
             <a href='index.html'>HOME</a>\
             <a href='about.html'>ABOUT</a>\

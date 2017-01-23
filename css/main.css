@@ -63,6 +63,7 @@ nav {
     height: 100%;
     text-decoration: none;
     display: inline-block;
+    max-width: 400px;
 }
 
 #core-nav img {
@@ -77,6 +78,7 @@ nav {
     top: 20px;
     -webkit-transition: top 0.4s; /* Safari */
     transition: top 0.4s;
+    justify-content: flex-end;
 }
 
 #link-wrapper a {
@@ -85,7 +87,7 @@ nav {
     color: white;
     margin-right: 20px;
     font-size: 1em;
-    transition: color 0.3s;
+    transition: color 0.1s;
 }
 
 #link-wrapper a:hover {
