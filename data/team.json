@@ -78,7 +78,7 @@
     },
     {
       "navn" : "Sindre Hansen",
-      "rolle" : "HW interface",
+      "rolle" : "HW Interface",
       "hjemby" : "Mo i Rana",
       "studie" : "Kybernetikk og robotikk"
     },
@@ -98,19 +98,19 @@
     },
     {
       "navn" : "Simon L'orange",
-      "rolle" : "Er med i Elektronikk",
+      "rolle" : "PSU",
       "hjemby" : "Gjerdrum",
       "studie" : "Elektronikk"
     },
     {
       "navn" : "Lars Haugseng Andersen",
-      "rolle" : "Er også med i elektronikk",
+      "rolle" : "Peripherals",
       "hjemby" : "Grimstad",
       "studie" : "Elektronikk"
     },
     {
       "navn" : "Aksel Sætre Lenes",
-      "rolle" : "Er også også med i elektronikk",
+      "rolle" : "Cameras",
       "hjemby" : "Kolbotn",
       "studie" : "Kybernetikk og Robotikk"
     }
@@ -124,19 +124,19 @@
     },
     {
       "navn" : "Petter Hoem Sletsjøe",
-      "rolle" : "Maskin",
+      "rolle" : "Frame & Enclosure",
       "hjemby" : "Sandefjord",
       "studie" : "Produktutvikling og produksjon"
     },
     {
       "navn" : "Vegard Slettahjell Skjefstad",
-      "rolle" : "Maskin",
+      "rolle" : "Thrusters",
       "hjemby" : "Flateby",
       "studie" : "Produktutvikling og produksjon"
     },
     {
       "navn" : "Greatania Juardi",
-      "rolle" : "Maskin",
+      "rolle" : "Manipulator",
       "hjemby" : "London",
       "studie" : "Produktutvikling og produksjon"
     }
