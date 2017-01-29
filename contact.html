@@ -8,10 +8,10 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script src="js/template.js" async></script>
-    <script src="js/sticky-nav.js" async></script>
-    <script src=js/gmaps.js async defer></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDY0EslAdUjI7QbTxykCn47PB7vgcBo39I&callback=initMap" async defer></script>
+    <script src="js/template.js" defer></script>
+    <script src="js/sticky-nav.js" defer></script>
+    <script src=js/gmaps.js defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDY0EslAdUjI7QbTxykCn47PB7vgcBo39I&callback=initMap" defer></script>
     <style>
         #link-wrapper a:nth-of-type(6) {
             color: #A72717;
@@ -20,6 +20,7 @@
         #map {
             height: 400px;
             width: 500px;
+            border: solid #A72717 2px;
         }
         
         p {
@@ -50,6 +51,12 @@
         h3 {
             margin-bottom: 5px;
         }
+
+        .align a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
     </style>
 </head>
 
@@ -62,14 +69,12 @@
                 <div class="contact">
                     <h3>Vortex</h3>
                     <p>Rom D038,<br> O. S. Bragstads plass 2D,<br> Elektroblokk D, 1. etg.,<br> Gløshaugen, NTNU,<br> NO-7491 Trondheim<br> Norway</p>
-                    <div class="mail"><img src="img/contact/mail-icon.png"><a href="mailto:heh@fdfjkl">insertMailHere@vortex.no</a>
-                    </div>
+                    <div class="mail"><img src="img/contact/mail-icon.png"><a href="mailto:post@vortexntnu.no">post@vortexntnu.no</a></div>
                 </div>
                 <div class="contact">
                     <h3>Sponsorship Manager</h3>
                     <p>Eivind Salvesen<br></p>
-                    <div class="mail"><img src="img/contact/mail-icon.png"><a href="mailto:heh@fdfjkl">insertMailHere@vortex.no</a>
-                    </div>
+                    <div class="mail"><img src="img/contact/mail-icon.png"><a href="mailto:sponsor@vortexntnu.no">sponsor@vortexntnu.no</a></div>
                 </div>
             </div>
             <div id="map"></div>
