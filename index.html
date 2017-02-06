@@ -16,18 +16,18 @@
             color: #A72717;
         }
         /* Fading animation */
-        
+
         #top-slide {
             top: 130px;
         }
-        
+
         .fade {
             -webkit-animation-name: fade;
             -webkit-animation-duration: 1.5s;
             animation-name: fade;
             animation-duration: 1.5s;
         }
-        
+
         @-webkit-keyframes fade {
             from {
                 opacity: 0.4
@@ -36,7 +36,7 @@
                 opacity: 1
             }
         }
-        
+
         @keyframes fade {
             from {
                 opacity: 0.4
@@ -45,26 +45,26 @@
                 opacity: 1
             }
         }
-        
+
         #noe img {
             top: 0;
         }
-        
+
         .align {
             background: none;
             top: 130px;
         }
-        
+
         .center-align {
             display: flex;
             align-items: center;
             margin-bottom: 20px;
         }
-        
+
         .center-align img {
             width: 2em;
         }
-        
+
         .center-align a {
             line-height: 0;
             margin-right: 10px;
@@ -95,7 +95,7 @@
             font-size: 1.2em;
             font-style: italic;
         }
-        
+
         td {
             vertical-align: top;
             line-height: 1em;
@@ -105,15 +105,15 @@
             margin-top: 0.15em;
             display: block;
         }
-        
+
         .center-align h1 {
             margin: 0 0;
         }
-        
+
         #thanks {
             width: 100%;
         }
-        
+
         #news {
             background-color: rgba(0, 0, 0, 0.5);
             padding: 10px 10px;
@@ -121,21 +121,22 @@
             width: 50%;
             font-size: 0.8em;
             border: solid #A72717;
+
         }
-        
+
         #scroll {
             height: 30em;
             overflow-y: auto;
         }
-        
+
         .flex {
             width: 950px;
         }
-        
+
         #media {
             width: 25%;
         }
-        
+
         #media img {
             width: 100%;
             -webkit-touch-callout: none;
@@ -144,19 +145,15 @@
             -ms-user-select: none;
             user-select: none;
         }
-        
+
         #media h2 {
             margin: 0 auto 5px auto;
             font-size: 1.2em;
             text-align: center;
         }
-        
+
         #media p {
             margin: 0 0;
-        }
-        
-        #fbandsnap {
-            margin-top: 50px;
         }
     </style>
 </head>
@@ -182,9 +179,19 @@
             <span class="dot" onclick="currentSlide(3)"></span>
         </div>
     </div>
-    <div id="fbandsnap" class="align flex">
-        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FVortexNTNU%2F&tabs=timeline&width=500&height=600&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="500" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-        <div id="media">
+    <div class="align flex">
+        <div id="news">
+
+            <div id="scroll">
+                <div class="center-align"><a href="https://www.facebook.com/VortexNTNU"><img src="img/home/fb-logo.png"></a><h1>News</h1></div>
+                <table>
+                    <tr><td><a href="https://www.facebook.com/VortexNTNU/posts/1850080438579013">01.02.17</a></td><td><a href="https://www.facebook.com/VortexNTNU/posts/1850080438579013">Visit by the Norwegian Minister of Transport and Communications</a></td></tr>
+                    <tr><td><a href="https://www.facebook.com/VortexNTNU/posts/1786989418221449">28.09.16</a></td><td><a href="https://www.facebook.com/VortexNTNU/posts/1786989418221449">The Vortex NTNU Team 2017 is set!</a></td></tr>
+                    <tr><td><a href="https://www.facebook.com/VortexNTNU/posts/1774030646183993">01.09.16</a></td><td><a href="https://www.facebook.com/VortexNTNU/posts/1774030646183993">Results are in for the MATE ROV competition</a></td></tr>
+                </table>
+            </div>
+        </div>
+        <div id="media" >
             <h2>Follow us on snapchat</h2>
             <img src="img/home/snapcode.png">
             <h2>vortexntnu</h2>
