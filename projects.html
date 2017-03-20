@@ -17,6 +17,31 @@
             color: #A72717;
         }
         
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @-webkit-keyframes fade {
+            from {
+                opacity: 0.4
+            }
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes fade {
+            from {
+                opacity: 0.4
+            }
+            to {
+                opacity: 1
+            }
+        }
+        
         section {
             margin-bottom: 20px;
         }
@@ -126,10 +151,10 @@
                         </section>
                         <section>
                             <div class="slideshow-container">
-                                <div class="mySlides1 fade">
+                                <div class="mySlides1">
                                     <img src="img/projects/techspecs/techspecs1.png">
                                 </div>
-                                <div class="mySlides1 fade">
+                                <div class="mySlides1">
                                     <img src="img/projects/techspecs/techspecs2.png">
                                 </div>
                                 <div style="text-align:center">
