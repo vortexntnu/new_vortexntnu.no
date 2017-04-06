@@ -1,5 +1,4 @@
 nav = document.querySelector("nav");
-//footer = document.getElementById("footer");
 
 nav.innerHTML = "\
     <div id='core-nav'>\

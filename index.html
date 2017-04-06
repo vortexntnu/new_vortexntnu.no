@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script src="js/template.js" defer></script>
     <script src="js/slideshow-front.js" defer></script>
     <script src="js/sticky-nav.js" defer></script>
     <style>
@@ -16,18 +15,18 @@
             color: #A72717;
         }
         /* Fading animation */
-
+        
         #top-slide {
             top: 130px;
         }
-
+        
         .fade {
             -webkit-animation-name: fade;
             -webkit-animation-duration: 1.5s;
             animation-name: fade;
             animation-duration: 1.5s;
         }
-
+        
         @-webkit-keyframes fade {
             from {
                 opacity: 0.4
@@ -36,7 +35,7 @@
                 opacity: 1
             }
         }
-
+        
         @keyframes fade {
             from {
                 opacity: 0.4
@@ -45,26 +44,26 @@
                 opacity: 1
             }
         }
-
+        
         #noe img {
             top: 0;
         }
-
+        
         .align {
             background: none;
             top: 130px;
         }
-
+        
         .center-align {
             display: flex;
             align-items: center;
             margin-bottom: 20px;
         }
-
+        
         .center-align img {
             width: 2em;
         }
-
+        
         .center-align a {
             line-height: 0;
             margin-right: 10px;
@@ -95,7 +94,7 @@
             font-size: 1.2em;
             font-style: italic;
         }
-
+        
         td {
             vertical-align: top;
             line-height: 1em;
@@ -105,16 +104,16 @@
             margin-top: 0.15em;
             display: block;
         }
-
+        
         .center-align h1 {
             margin: 0 0;
         }
-
+        
         #thanks {
             width: 100%;
             margin-top: 300px;
         }
-
+        
         #news {
             background-color: rgba(0, 0, 0, 0.5);
             padding: 10px 10px;
@@ -122,22 +121,21 @@
             width: 50%;
             font-size: 0.8em;
             border: solid #A72717;
-
         }
-
+        
         #scroll {
             height: 30em;
             overflow-y: auto;
         }
-
+        
         .flex {
             width: 950px;
         }
-
+        
         #media {
             width: 25%;
         }
-
+        
         #media img {
             width: 100%;
             -webkit-touch-callout: none;
@@ -146,13 +144,13 @@
             -ms-user-select: none;
             user-select: none;
         }
-
+        
         #media h2 {
             margin: 0 auto 5px auto;
             font-size: 1.2em;
             text-align: center;
         }
-
+        
         #media p {
             margin: 0 0;
         }
@@ -178,17 +176,31 @@
 </head>
 
 <body>
-    <nav></nav>
+    <nav>
+        <div id='core-nav'>
+            <a id='img-link' href='index.html'><img src='img/logo_og_navn.png'></a>
+            <div id='link-wrapper'>
+                <a href='index'>HOME</a>
+                <a href='about'>ABOUT</a>
+                <a href='projects'>PROJECTS</a>
+                <a href='team'>TEAM</a>
+                <a href='join'>JOIN US</a>
+                <a href='contact'>CONTACT</a>
+            </div>
+        </div>
+    </nav>
     <div id="top-slide" class="slideshow-container">
         <div class="mySlides1 fade">
-            <a href="projects.html#mate2017"><img src="img/home/img1.jpg"></a>
-        </div>
-
-        <div class="mySlides1 fade">
-            <a href="about.html"><img src="img/home/forslag1.jpg"></a>
+            <a href="https://www.facebook.com/VortexNTNU/"><img src="img/home/forslag3.jpg"></a>
         </div>
         <div class="mySlides1 fade">
-            <a href="projects.html"><img src="img/home/Maelstrom_5.jpg"></a>
+            <a href="projects#mate2017"><img src="img/home/img1.jpg"></a>
+        </div>
+        <div class="mySlides1 fade">
+            <a href="about"><img src="img/home/forslag1.jpg"></a>
+        </div>
+        <div class="mySlides1 fade">
+            <a href="projects"><img src="img/home/Maelstrom_5.jpg"></a>
         </div>
         <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides1(1)">&#10095;</a>
@@ -201,7 +213,10 @@
     <div class="align flex">
         <div id="news">
             <div id="scroll">
-                <div class="center-align"><a href="https://www.facebook.com/VortexNTNU"><img src="img/home/fb-logo.png"></a><h1>News</h1></div>
+                <div class="center-align">
+                    <a href="https://www.facebook.com/VortexNTNU"><img src="img/home/fb-logo.png"></a>
+                    <h1>News</h1>
+                </div>
                 <div>
                     <div class="new"><i>27.02.17</i><a class="fblink" href="https://www.facebook.com/VortexNTNU/posts/1863000483953675">The general meeting of the Department of Engineering Cybernetics</a></div>
                     <div class="new"><i>15.02.17</i><a class="fblink" href="https://www.facebook.com/VortexNTNU/photos/a.1586546768265716.1073741828.1584160675170992/1857153564538367/?type=3&theater">Speech at the opening of MIDI</a></div>
@@ -212,13 +227,14 @@
                 </div>
             </div>
         </div>
-        <div id="media" >
+        <div id="media">
             <h2>Follow us on snapchat</h2>
             <img src="img/home/snapcode.png">
             <h2>vortexntnu</h2>
         </div>
     </div>
-    <img id="thanks" src="img/home/thanks.png"><!--hei-->
+    <img id="thanks" src="img/home/thanks.png">
+    <!--hei-->
 </body>
 
 </html>
