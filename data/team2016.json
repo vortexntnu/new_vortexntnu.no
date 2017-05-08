@@ -1,0 +1,182 @@
+[
+  [
+    {
+      "navn" : "Daniel Tran",
+      "rolle" : "Leader",
+      "hjemby" : "Bømlo",
+      "studie" : ""
+    },
+    {
+      "navn" : "Ole Johan Lønnum",
+      "rolle" : "Deputy Leader",
+      "hjemby" : "Oslo",
+      "studie" : ""
+    },
+    {
+      "navn" : "Morten Liland",
+      "rolle" : "Chief Technical Engineer",
+      "hjemby" : "Oslo",
+      "studie" : ""
+    },
+    {
+      "navn" : "Marie Henriksen",
+      "rolle" : "Head of Finance",
+      "hjemby" : "Horten",
+      "studie" : ""
+    },
+    {
+      "navn" : "Johannes Lorentzen",
+      "rolle" : "HR and HSEQ Manager",
+      "hjemby" : "Oslo",
+      "studie" : ""
+    },
+    {
+      "navn" : "Geir Kulia",
+      "rolle" : "Elected Representative",
+      "hjemby" : "Lillesand",
+      "studie" : ""
+    }
+  ],
+  [
+    {
+      "navn" : "Vebjørn Kjerstad",
+      "rolle" : "Sponsorship Manager",
+      "hjemby" : "Tromsø",
+      "studie" : ""
+    },
+    {
+      "navn" : "Geir Kulia",
+      "rolle" : "IT Manager",
+      "hjemby" : "Lillesand",
+      "studie" : ""
+    }
+  ],
+  [
+    {
+      "navn" : "Ole Johan Lønnum",
+      "rolle" : "Group Leader Mechanical",
+      "hjemby" : "Oslo",
+      "studie" : ""
+    },
+    {
+      "navn" : "Kristian Bortne",
+      "rolle" : "Product Development Engineer",
+      "hjemby" : "Måløy",
+      "studie" : ""
+    },
+    {
+      "navn" : "Arne Bui",
+      "rolle" : "Product Development Engineer",
+      "hjemby" : "Rygge",
+      "studie" : ""
+    },
+    {
+      "navn" : "Greatania Juardi",
+      "rolle" : "Product Development Engineer",
+      "hjemby" : "London",
+      "studie" : ""
+    },
+    {
+      "navn" : "Sarah Ann Prescott",
+      "rolle" : "Product Development Engineer",
+      "hjemby" : "Oslo",
+      "studie" : ""
+    },
+    {
+      "navn" : "Mads Jøsok",
+      "rolle" : "CAD Engineer",
+      "hjemby" : "Brattvåg",
+      "studie" : ""
+    }
+  ],
+  [
+    {
+      "navn" : "Karl Ylvisaker",
+      "rolle" : "Group Leader Electronics",
+      "hjemby" : "Tromsø",
+      "studie" : ""
+    },
+    {
+      "navn" : "Lars Haugseng Andersen",
+      "rolle" : "Digital Design",
+      "hjemby" : "Grimstad",
+      "studie" : ""
+    },
+    {
+      "navn" : "Simon L'orange",
+      "rolle" : "Analog Design",
+      "hjemby" : "Gjerdrum",
+      "studie" : ""
+    }
+  ],
+  [
+    {
+      "navn" : "Peter Aaser",
+      "rolle" : "Group Leader Control and Communication",
+      "hjemby" : "Asker",
+      "studie" : ""
+    },
+    {
+      "navn" : "Morten Fyhn Amundsen",
+      "rolle" : "Dynamic Positioning System",
+      "hjemby" : "Trondheim",
+      "studie" : ""
+    },
+    {
+      "navn" : "Håkon Gimse",
+      "rolle" : "System Development",
+      "hjemby" : "Oslo",
+      "studie" : ""
+    },
+    {
+      "navn" : "Eirik Lothe Foseid",
+      "rolle" : "System Development",
+      "hjemby" : "Stord",
+      "studie" : ""
+    },
+    {
+      "navn" : "Øystein Havstad",
+      "rolle" : "Embedded System Development",
+      "hjemby" : "Grimstad",
+      "studie" : ""
+    }
+  ],
+  [
+    {
+      "navn" : "Peter Aaser",
+      "rolle" : "EiT",
+      "hjemby" : "Asker",
+      "studie" : ""
+    },
+    {
+      "navn" : "Alexander Wasaznik",
+      "rolle" : "EiT",
+      "hjemby" : "Oslo",
+      "studie" : ""
+    },
+    {
+      "navn" : "Håkon Gimse",
+      "rolle" : "EiT",
+      "hjemby" : "Oslo",
+      "studie" : ""
+    },
+    {
+      "navn" : "Johannes Lorentzen",
+      "rolle" : "EiT",
+      "hjemby" : "Oslo",
+      "studie" : ""
+    },
+    {
+      "navn" : "Lars Haugseng Andersen",
+      "rolle" : "EiT",
+      "hjemby" : "Grimstad",
+      "studie" : ""
+    },
+    {
+      "navn" : "Simon L'orange",
+      "rolle" : "EiT",
+      "hjemby" : "Gjerdrum",
+      "studie" : ""
+    }
+  ]
+]
