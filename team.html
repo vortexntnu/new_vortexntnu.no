@@ -14,8 +14,6 @@
             color: #A72717;
         }
         
-        .
-        
         .group {
             position: relative;
             top: 30px;
@@ -70,22 +68,39 @@
             width: 100%;
         }
         
+        .team-description {
+            margin-bottom: 30px;
+        }
+        
         #allyears {
-            text-align: center;
-            margin-top: 20px;
-            margin-bottom: 60px
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0px 40px 0px;
         }
         
         .yeardot {
-            padding: 25px 12px;
-            border: solid 4px white;
+            cursor: pointer;
+            padding: 15px 15px;
+            width: 30px;
+            height: 30px;
+            border: solid 3px white;
             border-radius: 100px;
-            font-size: 1.4em;
+            font-size: 1em;
             font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         
         .activeyear, .yeardot:hover {
             background-color: #801101;
+        }
+        
+        #line {
+            height: 0;
+            width: 20px;
+            border-bottom: 3px solid white;
         }
     </style>
 </head>
@@ -106,12 +121,15 @@
     </nav>
     <div class="align">
         <div id="allyears">
-            <span class="yeardot" onclick="showTeam(0)">2017</span>
-            <span class="yeardot" onclick="showTeam(1)">2016</span>
+            <div class="yeardot" onclick="showTeam(1)"><p>2016</p></div>
+            <div id="line"></div>
+            <div class="yeardot" onclick="showTeam(0)"><p>2017</p></div>
         </div>
         <div class="team">
-            <h1>Team 2017</h1>
-            <p>Team 2017 of Vortex NTNU consists of 18 students from seven different engineering disciplines across all years of study. We have learned a lot from last year's MATE-competition, and this year we will perform even better!</p>
+            <div class="team-description">
+                <h1>Team 2017</h1>
+                <p>Team 2017 of Vortex NTNU consists of 18 students from seven different engineering disciplines across all years of study. We have learned a lot from last year's MATE-competition, and this year we will perform even better!</p>
+            </div>
             <div class='group'>
 				<div class='top'>
 					<div class='member'>
@@ -274,8 +292,10 @@
 			</div>
         </div>
         <div class="team">
-            <h1>Team 2017</h1>
-            <p>Team 2016 of Vortex NTNU consists of 21 students from six different engineering disciplines across all years of study. Together we will develop an ROV to compete in the international MATE competition - representing NTNU for the first time!</p>
+            <div class="team-description">
+                <h1>Team 2016</h1>
+                <p>Team 2016 of Vortex NTNU consists of 21 students from six different engineering disciplines across all years of study. Together we will develop an ROV to compete in the international MATE competition - representing NTNU for the first time!</p>
+            </div>
             <div class='group'>
 				<div class='top'>
 					<div class='member'>
@@ -439,9 +459,6 @@
 			<div class='group'>
 				<div class='top'>
 					<div class='member'>
-						<img src='img/team/team2016/peteraaser.png'>
-						<h3>Peter Aaser</h3>
-						<p>EiT<br>Hometown : Asker</p>
 					</div>
 					<div class='info'>
 						<h2>Manipulator</h2>
@@ -449,6 +466,11 @@
 					</div>
 				</div>
 				<div class='bot'>
+                    <div class='member'>
+						<img src='img/team/team2016/peteraaser.png'>
+						<h3>Peter Aaser</h3>
+						<p>EiT<br>Hometown : Asker</p>
+					</div>
 					<div class='member'>
 						<img src='img/team/team2016/placeholder.png'>
 						<h3>Alexander Wasaznik</h3>
