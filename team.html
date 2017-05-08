@@ -97,10 +97,31 @@
             background-color: #801101;
         }
         
-        #line {
+        .line {
             height: 0;
             width: 20px;
             border-bottom: 3px solid white;
+        }
+        
+        .nextyeardot {
+            cursor: default;
+            padding: 15px 15px;
+            width: 30px;
+            height: 30px;
+            border: solid 3px #505050;
+            border-radius: 100px;
+            font-size: 1em;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #505050;
+        }
+        
+        #grayline {
+            height: 0;
+            width: 20px;
+            border-bottom: 3px solid #505050;
         }
     </style>
 </head>
@@ -122,8 +143,10 @@
     <div class="align">
         <div id="allyears">
             <div class="yeardot" onclick="showTeam(1)"><p>2016</p></div>
-            <div id="line"></div>
+            <div class="line"></div>
             <div class="yeardot" onclick="showTeam(0)"><p>2017</p></div>
+            <div id="grayline"></div>
+            <div class="nextyeardot"><p>2018</p></div>
         </div>
         <div class="team">
             <div class="team-description">
