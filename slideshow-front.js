@@ -13,7 +13,7 @@ function currentSlide1(n) {
 
 function showSlides1(n) {
     clearTimeout(timer1);
-    timer1 = window.setTimeout(function() { plusSlides1(1); },10000);
+    timer1 = window.setTimeout(function() { plusSlides1(1); },8000);
     
     var i;
     var slides = document.getElementsByClassName("mySlides1");
