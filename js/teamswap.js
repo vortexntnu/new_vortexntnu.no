@@ -3,8 +3,7 @@ showTeam(0);
 function showTeam(n) {
     var teams = document.getElementsByClassName("team");
     var dots = document.getElementsByClassName("yeardot");
-    dots
-    
+
     for (var i = 0; i < teams.length; i++) {
         teams[i].style.display = "none";
     }

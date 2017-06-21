@@ -5,11 +5,9 @@ html {
 }
 
 body {
-    background-color: black;
     padding: 0;
     margin: 0;
-    background-image: url("../img/undervann.jpg");
-    background-attachment: fixed;
+    background: black url("../img/undervann.jpg") fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -136,26 +134,12 @@ nav {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-
-/* Number text (1/3 etc) */
-
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-
-
 /* The dots/bullets/indicators */
-
 .dot {
     cursor: pointer;
     height: 13px;

@@ -7,14 +7,10 @@ function plusSlides2(n) {
     showSlides2(slideIndex2 += n);
 }
 
-function currentSlide2(n) {
-    showSlides2(slideIndex2 = n);
-}
-
 function showSlides2(n) {
     clearTimeout(timer2);
     timer2 = window.setTimeout(function() { plusSlides2(1); },5000);
-    
+
     var i;
     var slides = document.getElementsByClassName("mySlides2");
     var dots = document.getElementsByClassName("dot2");

@@ -16,7 +16,7 @@ if(scroll_position > 0) {
 }
 
 function sticky_nav(scroll_pos) {
-    if (scroll_pos == 0) {
+    if (scroll_pos === 0) {
         nav.style.backgroundColor = "transparent";
         nav.style.height = "100px";
         links.style.top = "20px";
@@ -24,7 +24,7 @@ function sticky_nav(scroll_pos) {
     } else {
         nav.style.backgroundColor = "#151515";
         nav.style.height = "50px";
-        links.style.top = "7px"
+        links.style.top = "7px";
         img_link.style.width = "160.984px";
     }
 }
