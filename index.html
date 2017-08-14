@@ -9,187 +9,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" initial-scale="1">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <script src="js/slideshow-front.js" defer></script>
-    <script src="js/sticky-nav.js" defer></script>
     <style>
-        #link-wrapper a:nth-of-type(1) {
-            color: #A72717;
+        body {
+            padding-top: 70px;
         }
 
-        #top-slide {
-            top: 130px;
+        .navbar-default {
+            background: transparent;
+            border: none;
         }
-        
-        .fade {
-            -webkit-animation-name: fade;
-            -webkit-animation-duration: 1.5s;
-            animation-name: fade;
-            animation-duration: 1.5s;
+
+        .navbar-collapse {
+            font-size: 1.1em;
         }
-        
-        @-webkit-keyframes fade {
-            from {
-                opacity: 0.4
+
+        @media (max-width: 767px) {
+            .navbar, .navbar-collapse {
+                background-color: #151515;
             }
-            to {
-                opacity: 1
-            }
-        }
-        
-        @keyframes fade {
-            from {
-                opacity: 0.4
-            }
-            to {
-                opacity: 1
+
+            body {
+                padding-top: 0;
             }
         }
-        
-        #noe img {
-            top: 0;
-        }
-        
-        .align {
-            background: none;
-            top: 130px;
-        }
-        
-        .center-align {
-            display: flex;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-        
-        .center-align img {
-            width: 2em;
-        }
-        
-        .center-align a {
-            line-height: 0;
-            margin-right: 10px;
-            margin-left: 5px;
-        }
-        
-        tr {
-            display: block;
-            margin-top: 20px;
-        }
-        
-        td a {
-            text-decoration: none;
-            color: white;
-        }
-        
-        tr:hover {
-            border-bottom: solid 1px;
-        }
-        
-        tr:hover+tr {
-            margin-top: 19px;
-        }
-        
-        td:first-of-type {
-            padding-right: 10px;
-            font-weight: bold;
-            font-size: 1.2em;
-            font-style: italic;
-        }
-        
-        td {
-            vertical-align: top;
-            line-height: 1em;
-        }
-        
-        td:nth-of-type(2) a {
-            margin-top: 0.15em;
-            display: block;
-        }
-        
-        .center-align h1 {
-            margin: 0 0;
-        }
-        
-        #thanks {
-            width: 100%;
-            margin-top: 300px;
-        }
-        
-        #news {
-            background-color: rgba(0, 0, 0, 0.5);
-            padding: 10px 10px;
-            border-radius: 10px;
-            width: 50%;
-            font-size: 0.8em;
-            border: solid #A72717;
-        }
-        
-        #scroll {
-            height: 30em;
-            overflow-y: auto;
-        }
-        
-        .flex {
-            width: 950px;
-        }
-        
-        #media {
-            width: 25%;
-        }
-        
-        #media img {
-            width: 100%;
-            -webkit-touch-callout: none;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-        
-        #media h2 {
-            margin: 0 auto 5px auto;
-            font-size: 1.2em;
-            text-align: center;
-        }
-        
-        #media p {
-            margin: 0 0;
-        }
-        
-        .fblink {
-            margin-left: 15px;
-            color: white;
-            text-decoration: none;
-        }
-        
-        .fblink:hover {
-            text-decoration: underline;
-        }
-        
-        .new {
-            margin-bottom: 15px;
-        }
-        
-        i {
-            font-weight: bold;
-        }
+
     </style>
 </head>
 
 <body>
-    <nav>
-        <div id='core-nav'>
-            <a id='img-link' href='index.html'><img src='img/logo_og_navn.png'></a>
-            <div id='link-wrapper'>
-                <a href='index'>HOME</a>
-                <a href='about'>ABOUT</a>
-                <a href='projects'>PROJECTS</a>
-                <a href='team'>TEAM</a>
-                <a href='join'>JOIN US</a>
-                <a href='contact'>CONTACT</a>
-            </div>
+<nav class="navbar navbar-default">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="indexboot.html"><img src="img/logo_og_navn.png" height="100%"></a>
         </div>
-    </nav>
-    <div id="top-slide" class="slideshow-container">
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PROJECT</a></li>
+                <li><a href="#">TEAM</a></li>
+                <li><a href="#">JOIN US</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<div id="top-slide" class="slideshow-container">
         <div class="mySlides fade">
             <a href="team"><img src="img/home/team2017.jpg"></a>
         </div>
@@ -219,22 +95,15 @@
                     <h1>News</h1>
                 </div>
                 <div>
-                    <div class="new"><i>26.06.17</i><a class="fblink" href="https://www.facebook.com/VortexNTNU/photos/a.1586546768265716.1073741828.1584160675170992/1925704347683288/?type=3&theater">Update from Long Beach</a></div>
-                    <div class="new"><i>24.06.17</i><a class="fblink" href="https://www.facebook.com/VortexNTNU/photos/a.1586546768265716.1073741828.1584160675170992/1924570644463325/?type=3&theater">Ready for safety inspection</a></div>
-                    <div class="new"><i>28.05.17</i><a class="fblink" href="https://www.facebook.com/VortexNTNU/photos/a.1586546768265716.1073741828.1584160675170992/1909210739332649/?type=3&theater">Vortex on the front-page of DYP</a></div>
-                    <div class="new"><i>04.05.17</i><a class="fblink" href="https://www.facebook.com/VortexNTNU/photos/a.1586546768265716.1073741828.1584160675170992/1898481523738904/?type=3&theater">Vortex at Ocean Week</a></div>
-
                     <div class="new"><i>26.04.17</i><a class="fblink" href="https://www.facebook.com/VortexNTNU/photos/a.1586546768265716.1073741828.1584160675170992/1894526440801079/?type=3&theater">Meet Terrapin, our brand new ROV</a></div>
                     <div class="new"><i>14.04.17</i><a class="fblink" href="https://www.facebook.com/events/184373758741602/">Unveiling our latest ROV</a></div>
                     <div class="new"><i>22.03.17</i><a class="fblink" href="https://www.facebook.com/VortexNTNU/photos/a.1586546768265716.1073741828.1584160675170992/1874877049432685/?type=3&theater">Board recruitment</a></div>
                     <div class="new"><i>27.02.17</i><a class="fblink" href="https://www.facebook.com/VortexNTNU/posts/1863000483953675">The general meeting of the Department of Engineering Cybernetics</a></div>
-                    <!--
                     <div class="new"><i>15.02.17</i><a class="fblink" href="https://www.facebook.com/VortexNTNU/photos/a.1586546768265716.1073741828.1584160675170992/1857153564538367/?type=3&theater">Speech at the opening of MIDI</a></div>
                     <div class="new"><i>13.02.17</i><a class="fblink" href="https://www.facebook.com/VortexNTNU/photos/a.1586546768265716.1073741828.1584160675170992/1856282057958851/?type=3&theater">Thank you NEO!</a></div>
                     <div class="new"><i>01.02.17</i><a class="fblink" href="https://www.facebook.com/VortexNTNU/posts/1850080438579013">Visit by the Norwegian Minister of Transport and Communications</a></div>
                     <div class="new"><i>28.09.16</i><a class="fblink" href="https://www.facebook.com/VortexNTNU/posts/1786989418221449">The Vortex NTNU Team 2017 is set!</a></div>
-                    <div class="new"><i>01.09.16</i><a class="fblink" href="https://www.facebook.com/VortexNTNU/posts/1774030646183993">Results are in for the MATE ROV competition</a></div>
-                    -->
+                    <!--<div class="new"><i>01.09.16</i><a class="fblink" href="https://www.facebook.com/VortexNTNU/posts/1774030646183993">Results are in for the MATE ROV competition</a></div>-->
                 </div>
             </div>
         </div>
@@ -245,6 +114,8 @@
         </div>
     </div>
     <img id="thanks" src="img/home/thanks.png">
+    <script src="jquery/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
