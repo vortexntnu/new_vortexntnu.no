@@ -7,53 +7,84 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/template.js" defer></script>
     <script src="js/sticky-nav.js" defer></script>
     <style>
         #link-wrapper a:nth-of-type(5) {
             color: #A72717;
         }
         
-        .align a {
+        h2 {
+            margin-bottom: -5px
+        }
+        
+        section {
+            margin-top: 50px;
+        }
+
+        #apply {
+            position: relative;
+            display: flex;
+            width: 230px;
+            height: 60px;
+            background-color: #337AFF;
+            border-radius: 10px;
+            margin: 60px auto 0 auto;
+            justify-content: center;
+            align-items: center;
+            color: white;
             text-decoration: none;
         }
-        
-        #fbAndSnap {
-            display: flex;
-            justify-content: center;
-            width: 100%;
-            position: relative;
-            margin: 50px auto 0 auto;
+
+        #apply:hover {
+            background-color: #005fbd;
         }
-        
-        #fbAndSnap img {
-            margin: 0 20px 0 20px;
-            width: 200px;
-            height: 200px;
+
+        #apply:active {
+            background-color: #00488f;
+        }
+
+        .align > h2 {
+            margin-top: 50px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <nav>
-        <div id='core-nav'>
-            <a id='img-link' href='index.html'><img src='img/logo_og_navn.png'></a>
-            <div id='link-wrapper'>
-                <a href='index'>HOME</a>
-                <a href='about'>ABOUT</a>
-                <a href='projects'>PROJECTS</a>
-                <a href='team'>TEAM</a>
-                <a href='join'>JOIN US</a>
-                <a href='contact'>CONTACT</a>
-            </div>
-        </div>
-    </nav>
-    <div class="align">
-        <h1>Sounds interesting?</h1>
-        <p>Unfortunately, we have already recruited our new members for the MATE international ROV competition of 2017. But fear not, we will be recruiting for the next competition soon enough. We will then announce what kind of expertise and skill sets we will be looking for in our next recruits. In the meantime, follow us on social media to get first-hand updates from the team!
-        <h3>Stay tuned!</h3>
-        <div id ="fbAndSnap">
-            <a href="https://www.facebook.com/VortexNTNU/"><img src="img/home/fb-logo.png"></a>
-            <img src="img/home/snapcode.png">
-        </div>
-    </div>
+<nav></nav>
+<div class="align">
+    <h1>Trives du under trykk? - Søk Vortex 2018</h1>
+    <p>Vortex NTNU er en tverrfaglig prosjektgruppe, som omfatter alt fra PR, produktutvikling, mekatronikk, elektronikk og applikasjonsutvikling. Hva enn du kan er det sannsynligvis relevant for oss, erfaring og forkunnskap er ikke et krav!</p>
+    <p>Vi kan love et sosialt, utfordrende og givende miljø der teamarbeid, initiativ og kreativitet verdsettes høyt. Som medlem i Team 2018 har du muligheten til å utvikle en sofistikert undervannsrobot som skal takle krevende oppgaver under vanskelige forhold.</p>
+    <p>Når du søker, spesifiserer du en eller flere av gruppene, men dine arbeidsoppgaver trenger ikke være begrenset innenfor den gruppen du havner i. Er du interessert i å jobbe på tvers av de inndelte gruppene er vi åpne for å finne en løsning.</p>
+    <p>Vi søker etter læringsvillige og engasjerte studenter som kommuniserer godt i team. Er dette deg?</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_CVu-6XueEcxPJjfKri6UfenpFGkPC1H74MJZWzBbCV-F3g/viewform?usp=sf_link" id="apply"><p>Søk her</p></a>
+    <h2>Gruppebeskrivelser:</h2>
+    <section>
+        <h2>Marked</h2>
+        <p>Markedsgruppen har ansvar for å markedsføre Vortex NTNU gjennom ulike kanaler. Målet er å øke interessen for Vortex NTNU blant studenter og næringsliv. Dette innebærer blant annet å kontakte bedrifter og presse, og utarbeide eventuelle samarbeidsavtaler. PR er også en viktig del av markedsføringen, det gjelder å være synlig på sosiale medier og sørge for at informasjon om organisasjonen til enhver tid er tilgjengelig på vår nettside. Som medlem av gruppen vil man jobbe med markedsføringsmaterialer som plakater, og i tillegg ha mulighet til å bidra med design av ROVen. Hver vår arrangeres ROV-avduking av markedsgruppen, det er det største og viktigste arrangementet Vortex NTNU bruker til å markedsføre ROV-en som vi utvikler.</p>
+        <p><b>Nøkkelord: </b><i>Grafisk design, Sponsorkontakt, PR, Produktdesign</i></p>
+    </section>
+    <section>
+        <h2>Økonomi</h2>
+        <p>Økonomiansvarlig har ansvar for å utarbeide budsjett, føre driftsregnskap, og ha kontroll over transaksjoner på kontoen. I tillegg må du holde deg oppdatert på ulike økonomiske behov til andre grupper, og samtidig følge opp deres økonomi i henhold til det oppsatte budsjett. Denne stillingen innehar også noen administrative arbeidsoppgaver, for eksempel planlegging av USA-turen for å delta på den internasjonale MATE-konkurransen. Relevant opplæring vil bli gitt i starten av vervet.</p>
+        <p><b>Nøkkelord: </b><i>Økonomistyring, Budsjett, Regnskap, Oppfølging og Kontroll</i></p>
+    </section>
+    <section>
+        <h2>Mekanisk</h2>
+        <p>Den mekaniske gruppen har ansvar for de strukturelle aspektene av ROVen. Dette innebærer det vanntette elektronikkhuset, rammen, thruster-design og utvikling av hardware for å løse alle oppgavene i konkurransen. En rolle i den mekaniske gruppen gir deg muligheten til å designe og utforme selve ROVen, med stor frihet. Som medlem av gruppen vil du jobbe med CAD, maskinering og 3D-printing av kritiske komponenter.</p>
+        <p><b>Nøkkelord: </b><i>Design, CAD, Maskinering, Vanntetting</i></p>
+    </section>
+    <section>
+        <h2>Elektronikk</h2>
+        <p>Elektronikk-gruppen har ansvar for elektronikken i ROVen og kontrollenheten på overflaten. Dette innebærer valg av komponenter, design av kretskort og ansvar for et velfungerende kamerasystem. Som medlem av gruppen vil du i tillegg til å implementere elektronikken jobbe tett sammen med de andre gruppene for å sikre at vi har en stabil og trygg farkost.</p>
+        <p><b>Nøkkelord: </b><i>Strømforsyning, Motorkontroll, PCB-design, Kamera, Lodding</i></p>
+    </section>
+    <section>
+        <h2>Programvare</h2>
+        <p>Programvare-gruppen har ansvar for å implementere softwaren som driver ROVen, samt design av applikasjon for å styre og kontrollere ROVen fra overflaten. Dette innebærer posisjonsregulering som sørger for at ROVen holder seg stabil selv under krevende forhold, og sømløs kommunikasjon, fra brukerens joystick-input helt til det elektriske signalet som styrer selve thrusterne. Som medlem av gruppen vil du jobbe med en software-arkitektur implementert i rammeverket Robot Operating System (ROS), som er på god vei til å bli industristandarden for robotikk. Du vil få jobbe med å utvikle et nytt brukergrensesnitt, drivere til sensorer, embedded systems og posisjonsregulering.</p>
+        <p><b>Nøkkelord: </b><i>ROS, Regulering, Embedded, Applikasjonsutvikling</i></p>
+    </section>
+</div>
 </body>
 </html>
