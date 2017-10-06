@@ -1,2 +1,2 @@
-# new_vortexntnu.no
+# vortexntnu.no
 Ny hjemmeside til Vortex
