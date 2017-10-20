@@ -7,6 +7,10 @@ function plusSlides(n) {
     showSlides(slideIndex += n);
 }
 
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
 function showSlides(n) {
     clearTimeout(timer);
     timer = window.setTimeout(function() { plusSlides(1); },8000);
